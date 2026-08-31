@@ -13,19 +13,19 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'LIN DESIGN — 视觉与产品设计作品集',
-  description: '专注品牌、数字产品与动态视觉，在逻辑与感受之间寻找恰好的平衡。',
+  title: 'LIN DESIGN — UI 界面设计作品集',
+  description: '专注 UI 界面与交互体验，也为公司活动提供海报等视觉设计支持。',
   openGraph: {
-    title: 'LIN DESIGN — 视觉与产品设计作品集',
-    description: '把复杂，设计得简单。品牌、数字产品与动态视觉作品集。',
+    title: 'LIN DESIGN — UI 界面设计作品集',
+    description: '让界面，好用也好看。UI 界面、交互体验与活动海报作品集。',
     type: 'website',
     locale: 'zh_CN',
     images: [{ url: '/og.png', width: 1792, height: 1005, alt: '把复杂，设计得简单。' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'LIN DESIGN — 视觉与产品设计作品集',
-    description: '把复杂，设计得简单。品牌、数字产品与动态视觉作品集。',
+    title: 'LIN DESIGN — UI 界面设计作品集',
+    description: '让界面，好用也好看。UI 界面、交互体验与活动海报作品集。',
     images: ['/og.png'],
   },
 };

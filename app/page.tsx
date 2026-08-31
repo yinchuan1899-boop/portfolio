@@ -127,9 +127,9 @@ function ParticleField() {
 }
 
 const projects = [
-  { id: '01', title: 'YOUNG SU', type: '品牌视觉 · 交互体验', year: '2026', className: 'acid' },
-  { id: '02', title: 'MOTION / 08', type: 'AIGC 影像 · 动态设计', year: '2026', className: 'violet' },
-  { id: '03', title: 'NORTH LAB', type: '数字产品 · 设计系统', year: '2025', className: 'silver' },
+  { id: '01', title: 'YOUNG SU', type: '产品界面 · 交互体验', year: '2026', className: 'acid' },
+  { id: '02', title: 'MOTION / 08', type: '活动海报 · 视觉延展', year: '2026', className: 'violet' },
+  { id: '03', title: 'NORTH LAB', type: 'UI 组件 · 设计规范', year: '2025', className: 'silver' },
 ];
 
 export default function Home() {
@@ -157,19 +157,19 @@ export default function Home() {
 
       <section className="hero" id="top">
         <div className="hero-meta reveal">
-          <span>视觉 / 产品设计师</span>
+          <span>UI 界面设计师</span>
           <span>中国 · 成都</span>
         </div>
 
-        <h1 className="hero-title" aria-label="把复杂，设计得简单。">
-          <span className="title-line">把复杂，</span>
-          <span className="title-line offset">设计得<span className="outline">简单</span>。</span>
+        <h1 className="hero-title" aria-label="让界面，好用也好看。">
+          <span className="title-line">让界面，</span>
+          <span className="title-line offset"><span className="outline">好用</span>也好看。</span>
         </h1>
 
         <div className="hero-footer reveal">
-          <p>专注品牌、数字产品与动态视觉，<br />在逻辑与感受之间寻找恰好的平衡。</p>
+          <p>专注 UI 界面与交互体验，<br />也为公司活动提供海报等视觉设计支持。</p>
           <a className="round-link" href="#work" aria-label="查看精选项目"><span>↓</span></a>
-          <span className="availability"><i /> AVAILABLE FOR SELECTED PROJECTS</span>
+          <span className="availability"><i /> UI DESIGN · VISUAL SUPPORT</span>
         </div>
       </section>
 
@@ -204,14 +204,14 @@ export default function Home() {
           <span>方法与态度</span>
         </div>
         <div className="about-grid">
-          <p className="about-lead">我相信真正好的设计，<br />看起来应该<span>毫不费力。</span></p>
+          <p className="about-lead">我相信好的 UI，<br />应该让体验<span>清晰自然。</span></p>
           <div className="about-copy">
-            <p>从问题本身出发，以清晰的策略、克制的视觉和细腻的动态，创造兼具辨识度与可用性的体验。</p>
+            <p>我从用户需求与业务目标出发，梳理信息层级和操作路径，并通过一致的视觉语言，让界面兼顾易用性与品质感。工作期间，我也参与公司活动海报设计，将界面设计中的秩序与品牌表达延展到视觉传播中。</p>
             <div className="service-list">
-              <span>01 品牌视觉</span>
-              <span>02 UI / UX</span>
-              <span>03 动态设计</span>
-              <span>04 AIGC 创意</span>
+              <span>01 UI 界面设计</span>
+              <span>02 交互体验</span>
+              <span>03 组件与规范</span>
+              <span>04 活动视觉支持</span>
             </div>
           </div>
         </div>
