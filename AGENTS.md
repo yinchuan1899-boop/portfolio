@@ -309,9 +309,9 @@ Examples:
 
 `pnpm lint`
 
-`pnpm typecheck`
+`pnpm exec tsc --noEmit`
 
-`pnpm build`
+`pnpm exec next build`
 
 If no dedicated TypeScript script exists but TypeScript and `tsconfig.json` are present, `pnpm exec tsc --noEmit` may be used when appropriate.
 
