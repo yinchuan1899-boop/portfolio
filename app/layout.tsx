@@ -12,7 +12,12 @@ const geistMono = Geist_Mono({
   subsets: ['latin'],
 });
 
+const productionHost =
+  process.env.VERCEL_PROJECT_PRODUCTION_URL ??
+  'lin-design-portfolio-2026.ycoo1.chatgpt.site';
+
 export const metadata: Metadata = {
+  metadataBase: new URL(`https://${productionHost}`),
   title: 'LIN DESIGN — UI 界面设计作品集',
   description: '专注 UI 界面与交互体验，也为公司活动提供海报等视觉设计支持。',
   openGraph: {
@@ -20,7 +25,7 @@ export const metadata: Metadata = {
     description: '让界面，好用也好看。UI 界面、交互体验与活动海报作品集。',
     type: 'website',
     locale: 'zh_CN',
-    images: [{ url: '/og.png', width: 1792, height: 1005, alt: '把复杂，设计得简单。' }],
+    images: [{ url: '/og.png', width: 1792, height: 1005, alt: '让界面，好用也好看。' }],
   },
   twitter: {
     card: 'summary_large_image',
