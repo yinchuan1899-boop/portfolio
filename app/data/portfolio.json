@@ -1,0 +1,1482 @@
+{
+  "categories": [
+    {
+      "id": "interface",
+      "name": "界面",
+      "english": "INTERFACE DESIGN",
+      "description": "信息有序，体验清晰。",
+      "projects": [
+        {
+          "id": "b65c786024ca",
+          "name": "安徽能源集团",
+          "sourceFolder": "安徽能源集团",
+          "coverId": "ae7ab0afbaf6",
+          "groups": [
+            {
+              "id": "8e19081c47a3",
+              "name": "效果图",
+              "images": [
+                {
+                  "id": "b2bb0f2f828b",
+                  "name": "1",
+                  "filename": "1.jpg",
+                  "src": "/portfolio/b2bb0f2f828b.webp",
+                  "thumb": "/portfolio/b2bb0f2f828b-thumb.webp",
+                  "width": 3840,
+                  "height": 2160,
+                  "source": "界面/安徽能源集团/1.jpg",
+                  "sourceSha256": "e1d7c6109a97ab12596a003d47f7b65078c8c31442a84b8eb33d4c355222c4a0"
+                },
+                {
+                  "id": "3b160c3b3693",
+                  "name": "2",
+                  "filename": "2.jpg",
+                  "src": "/portfolio/3b160c3b3693.webp",
+                  "thumb": "/portfolio/3b160c3b3693-thumb.webp",
+                  "width": 3840,
+                  "height": 2160,
+                  "source": "界面/安徽能源集团/2.jpg",
+                  "sourceSha256": "a613848fc0dc495e9d22741e6c1288094c3991040f1d6b390d3a5154b8c10cc8"
+                },
+                {
+                  "id": "af7b62f147ef",
+                  "name": "3",
+                  "filename": "3.jpg",
+                  "src": "/portfolio/af7b62f147ef.webp",
+                  "thumb": "/portfolio/af7b62f147ef-thumb.webp",
+                  "width": 3840,
+                  "height": 2160,
+                  "source": "界面/安徽能源集团/3.jpg",
+                  "sourceSha256": "7a733060ae18071fe385d81799838bdbfda428335b6e7c6d004f3a7203d63b64"
+                },
+                {
+                  "id": "d9f56e941d28",
+                  "name": "4",
+                  "filename": "4.jpg",
+                  "src": "/portfolio/d9f56e941d28.webp",
+                  "thumb": "/portfolio/d9f56e941d28-thumb.webp",
+                  "width": 3840,
+                  "height": 2160,
+                  "source": "界面/安徽能源集团/4.jpg",
+                  "sourceSha256": "939158783c30085e457fc42588632e8163fcca8d11c1f52bd020df545a85395f"
+                },
+                {
+                  "id": "4e168e5d4cdb",
+                  "name": "6",
+                  "filename": "6.jpg",
+                  "src": "/portfolio/4e168e5d4cdb.webp",
+                  "thumb": "/portfolio/4e168e5d4cdb-thumb.webp",
+                  "width": 3840,
+                  "height": 2160,
+                  "source": "界面/安徽能源集团/6.jpg",
+                  "sourceSha256": "61ebb6f311b373f8d50f4757004cec3339aebd88e21cba4d132aeda5f72a2450"
+                },
+                {
+                  "id": "2e1bae22d4ab",
+                  "name": "7",
+                  "filename": "7.jpg",
+                  "src": "/portfolio/2e1bae22d4ab.webp",
+                  "thumb": "/portfolio/2e1bae22d4ab-thumb.webp",
+                  "width": 3840,
+                  "height": 2160,
+                  "source": "界面/安徽能源集团/7.jpg",
+                  "sourceSha256": "9e36429031612d65b31e7fe1094aa90626fed90b8fbdfe57a84bd6f40cbc310a"
+                },
+                {
+                  "id": "b000bbc63580",
+                  "name": "8",
+                  "filename": "8.jpg",
+                  "src": "/portfolio/b000bbc63580.webp",
+                  "thumb": "/portfolio/b000bbc63580-thumb.webp",
+                  "width": 3840,
+                  "height": 2160,
+                  "source": "界面/安徽能源集团/8.jpg",
+                  "sourceSha256": "12ee1d8139d04b5e8c7a60513670c66adcdcee5c796cdfea2aeb13b597d75788"
+                },
+                {
+                  "id": "126eda680d8f",
+                  "name": "9",
+                  "filename": "9.jpg",
+                  "src": "/portfolio/126eda680d8f.webp",
+                  "thumb": "/portfolio/126eda680d8f-thumb.webp",
+                  "width": 3840,
+                  "height": 2160,
+                  "source": "界面/安徽能源集团/9.jpg",
+                  "sourceSha256": "ab3326c99ab4db43cecda6191d42e5d8bcdf972df31f59b0cbdf5d9a9462c356"
+                },
+                {
+                  "id": "b38a3231623a",
+                  "name": "10",
+                  "filename": "10.jpg",
+                  "src": "/portfolio/b38a3231623a.webp",
+                  "thumb": "/portfolio/b38a3231623a-thumb.webp",
+                  "width": 3840,
+                  "height": 2160,
+                  "source": "界面/安徽能源集团/10.jpg",
+                  "sourceSha256": "d850eb3d310d1d9dcb23708247e42ffb68e875a3f4a22750ea2eaf56bc54ade8"
+                },
+                {
+                  "id": "aecaf3c2ce3e",
+                  "name": "11",
+                  "filename": "11.jpg",
+                  "src": "/portfolio/aecaf3c2ce3e.webp",
+                  "thumb": "/portfolio/aecaf3c2ce3e-thumb.webp",
+                  "width": 3840,
+                  "height": 2160,
+                  "source": "界面/安徽能源集团/11.jpg",
+                  "sourceSha256": "f1cd7149d6617cf60aaaebe6d140afaf6a3981f2e494377f87707946ea3e6b93"
+                },
+                {
+                  "id": "55b5676fc0dd",
+                  "name": "12",
+                  "filename": "12.jpg",
+                  "src": "/portfolio/55b5676fc0dd.webp",
+                  "thumb": "/portfolio/55b5676fc0dd-thumb.webp",
+                  "width": 3840,
+                  "height": 2160,
+                  "source": "界面/安徽能源集团/12.jpg",
+                  "sourceSha256": "f44a89be0141e274f1c7d286e6cf43be5e5bb9a9b2badaf68b7420d1afdf375a"
+                },
+                {
+                  "id": "75137dcbcb39",
+                  "name": "16皖能",
+                  "filename": "16皖能.jpg",
+                  "src": "/portfolio/75137dcbcb39.webp",
+                  "thumb": "/portfolio/75137dcbcb39-thumb.webp",
+                  "width": 3840,
+                  "height": 2160,
+                  "source": "界面/安徽能源集团/16皖能.jpg",
+                  "sourceSha256": "f82a43afa3391fd4ad073fdf8041d0cfb9b507b5bf189f3b18dc048ef02dbc2e"
+                },
+                {
+                  "id": "ae7ab0afbaf6",
+                  "name": "待机2",
+                  "filename": "待机2.jpg",
+                  "src": "/portfolio/ae7ab0afbaf6.webp",
+                  "thumb": "/portfolio/ae7ab0afbaf6-thumb.webp",
+                  "width": 3840,
+                  "height": 2160,
+                  "source": "界面/安徽能源集团/待机2.jpg",
+                  "sourceSha256": "daa4cbfcec83109e66856d6c43a5a38a5c82f64ea0bf76725f3347dbbce21f46"
+                },
+                {
+                  "id": "6c710f9127e2",
+                  "name": "选择界面",
+                  "filename": "选择界面.jpg",
+                  "src": "/portfolio/6c710f9127e2.webp",
+                  "thumb": "/portfolio/6c710f9127e2-thumb.webp",
+                  "width": 3840,
+                  "height": 2160,
+                  "source": "界面/安徽能源集团/选择界面.jpg",
+                  "sourceSha256": "fc5ef69831c6485db95d9446a8c38ec6b7896f1d45c31a6d1c88fdb09367e6e9"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "37b510ebedaa",
+          "name": "北京海淀",
+          "sourceFolder": "北京海淀",
+          "coverId": "b9c2cf49e9a5",
+          "groups": [
+            {
+              "id": "8cd54372df2a",
+              "name": "效果图",
+              "images": [
+                {
+                  "id": "b9c2cf49e9a5",
+                  "name": "1-2",
+                  "filename": "1-2.jpg",
+                  "src": "/portfolio/b9c2cf49e9a5.webp",
+                  "thumb": "/portfolio/b9c2cf49e9a5-thumb.webp",
+                  "width": 1080,
+                  "height": 1920,
+                  "source": "界面/北京海淀/1-2.jpg",
+                  "sourceSha256": "7aa0c80f280d3113634db681817dd0bcdd726cf7c3bccc7ebe7e31ec635fe747"
+                },
+                {
+                  "id": "4d6e9970c26e",
+                  "name": "1-3",
+                  "filename": "1-3.jpg",
+                  "src": "/portfolio/4d6e9970c26e.webp",
+                  "thumb": "/portfolio/4d6e9970c26e-thumb.webp",
+                  "width": 1080,
+                  "height": 1920,
+                  "source": "界面/北京海淀/1-3.jpg",
+                  "sourceSha256": "fec4ec69e0e940aadf83e4ea1247b7377208fa3adf00f09c3f0a7f68e6257630"
+                },
+                {
+                  "id": "967b018efe28",
+                  "name": "2-2",
+                  "filename": "2-2.jpg",
+                  "src": "/portfolio/967b018efe28.webp",
+                  "thumb": "/portfolio/967b018efe28-thumb.webp",
+                  "width": 2160,
+                  "height": 3840,
+                  "source": "界面/北京海淀/2-2.jpg",
+                  "sourceSha256": "b38a70af43dfc0452bdecef99a4d24302cded5f6a25cc73caf56c028bfbd5daa"
+                },
+                {
+                  "id": "d0b494a00cd5",
+                  "name": "2-3",
+                  "filename": "2-3.jpg",
+                  "src": "/portfolio/d0b494a00cd5.webp",
+                  "thumb": "/portfolio/d0b494a00cd5-thumb.webp",
+                  "width": 2160,
+                  "height": 3840,
+                  "source": "界面/北京海淀/2-3.jpg",
+                  "sourceSha256": "a1f3bbcd3a0599371197d492111a68939b74902d0a4d98878df8f3401874e612"
+                },
+                {
+                  "id": "693f6fe76165",
+                  "name": "3-2",
+                  "filename": "3-2.jpg",
+                  "src": "/portfolio/693f6fe76165.webp",
+                  "thumb": "/portfolio/693f6fe76165-thumb.webp",
+                  "width": 2160,
+                  "height": 3840,
+                  "source": "界面/北京海淀/3-2.jpg",
+                  "sourceSha256": "49374048ae43e7c861c13f995f9489394abb521ff2f059ee732c8b27c0d1a80b"
+                },
+                {
+                  "id": "990853e35ce7",
+                  "name": "3-3",
+                  "filename": "3-3.jpg",
+                  "src": "/portfolio/990853e35ce7.webp",
+                  "thumb": "/portfolio/990853e35ce7-thumb.webp",
+                  "width": 2160,
+                  "height": 3840,
+                  "source": "界面/北京海淀/3-3.jpg",
+                  "sourceSha256": "21c27b2d294233d314aa39665111c516aaf103fe1acc00c17d020bf61f28e382"
+                },
+                {
+                  "id": "a97aa6ab03fc",
+                  "name": "透明屏",
+                  "filename": "透明屏.jpg",
+                  "src": "/portfolio/a97aa6ab03fc.webp",
+                  "thumb": "/portfolio/a97aa6ab03fc-thumb.webp",
+                  "width": 1080,
+                  "height": 1920,
+                  "source": "界面/北京海淀/透明屏.jpg",
+                  "sourceSha256": "1192140eeee15f305cfc2df2861ca9ae2540ae51123fbaa64967bbd670ec3a91"
+                },
+                {
+                  "id": "6cce7cd02e08",
+                  "name": "一体机1",
+                  "filename": "一体机1.jpg",
+                  "src": "/portfolio/6cce7cd02e08.webp",
+                  "thumb": "/portfolio/6cce7cd02e08-thumb.webp",
+                  "width": 2160,
+                  "height": 3840,
+                  "source": "界面/北京海淀/一体机1.jpg",
+                  "sourceSha256": "01d578486db9f0dd99cf2015582fecfb4035ba5fd300d00f923fae97cf0b6f3b"
+                },
+                {
+                  "id": "92f0a53f4bd8",
+                  "name": "一体机2",
+                  "filename": "一体机2.jpg",
+                  "src": "/portfolio/92f0a53f4bd8.webp",
+                  "thumb": "/portfolio/92f0a53f4bd8-thumb.webp",
+                  "width": 2160,
+                  "height": 3840,
+                  "source": "界面/北京海淀/一体机2.jpg",
+                  "sourceSha256": "a575c1c019e177794c4e6cb68b67e7e11f4c42f376e9bfa1e926a18abde0fe5d"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "b67e14515c35",
+          "name": "滨江无人机 (2)",
+          "sourceFolder": "滨江无人机 (2)",
+          "coverId": "96e3a9a478ef",
+          "groups": [
+            {
+              "id": "99e81d217bca",
+              "name": "效果图",
+              "images": [
+                {
+                  "id": "d91cd82b3102",
+                  "name": "极速组装间",
+                  "filename": "极速组装间.png",
+                  "src": "/portfolio/d91cd82b3102.webp",
+                  "thumb": "/portfolio/d91cd82b3102-thumb.webp",
+                  "width": 1920,
+                  "height": 1080,
+                  "source": "界面/滨江无人机 (2)/极速组装间.png",
+                  "sourceSha256": "a924308d9486a7a518df85fbcfb6be9fa2b67a139cddad1b54e4cf407eb2e2b6"
+                },
+                {
+                  "id": "32ce852ca871",
+                  "name": "色彩实验室",
+                  "filename": "色彩实验室.png",
+                  "src": "/portfolio/32ce852ca871.webp",
+                  "thumb": "/portfolio/32ce852ca871-thumb.webp",
+                  "width": 1080,
+                  "height": 1920,
+                  "source": "界面/滨江无人机 (2)/色彩实验室.png",
+                  "sourceSha256": "a3d72e80b4189b2ace88b1b3142c39c442d99b3f9a14f2ba5b51443688ed2e37"
+                },
+                {
+                  "id": "45057b57d972",
+                  "name": "视觉质检站",
+                  "filename": "视觉质检站.png",
+                  "src": "/portfolio/45057b57d972.webp",
+                  "thumb": "/portfolio/45057b57d972-thumb.webp",
+                  "width": 1920,
+                  "height": 1080,
+                  "source": "界面/滨江无人机 (2)/视觉质检站.png",
+                  "sourceSha256": "70562e7d7d14edd2ce0e30ef67b4d8c44f3d353eabd62b9c8ded2a1cacda166e"
+                },
+                {
+                  "id": "96e3a9a478ef",
+                  "name": "无人机总动员",
+                  "filename": "无人机总动员.png",
+                  "src": "/portfolio/96e3a9a478ef.webp",
+                  "thumb": "/portfolio/96e3a9a478ef-thumb.webp",
+                  "width": 1920,
+                  "height": 1080,
+                  "source": "界面/滨江无人机 (2)/无人机总动员.png",
+                  "sourceSha256": "3a868bc44cffeffdedffee4e8b684489902a0fc5d0c5bf6ac06cc18fd03f4cb5"
+                },
+                {
+                  "id": "5a5eed1a1628",
+                  "name": "智能分拣台",
+                  "filename": "智能分拣台.png",
+                  "src": "/portfolio/5a5eed1a1628.webp",
+                  "thumb": "/portfolio/5a5eed1a1628-thumb.webp",
+                  "width": 1920,
+                  "height": 1080,
+                  "source": "界面/滨江无人机 (2)/智能分拣台.png",
+                  "sourceSha256": "17fe92f9df97239300821edd3631ae98daaede9b1f04431c7e85fb6d3178aec5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "061203a44c63",
+          "name": "大零号湾",
+          "sourceFolder": "大零号湾",
+          "coverId": "86f375a24d48",
+          "groups": [
+            {
+              "id": "590cd22cc35b",
+              "name": "效果图",
+              "images": [
+                {
+                  "id": "86f375a24d48",
+                  "name": "0港",
+                  "filename": "0港.jpg",
+                  "src": "/portfolio/86f375a24d48.webp",
+                  "thumb": "/portfolio/86f375a24d48-thumb.webp",
+                  "width": 1080,
+                  "height": 1920,
+                  "source": "界面/大零号湾/0港.jpg",
+                  "sourceSha256": "181da6992eb42b767e4427103af97f66d8e4ec54d78b2cffc512bd78767dbe21"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "dd57dd44c60a",
+          "name": "模力营",
+          "sourceFolder": "模力营",
+          "coverId": "5a0bece9bb87",
+          "groups": [
+            {
+              "id": "cab54036a85e",
+              "name": "效果图",
+              "images": [
+                {
+                  "id": "5a0bece9bb87",
+                  "name": "模力营文娱内页",
+                  "filename": "模力营文娱内页.jpg",
+                  "src": "/portfolio/5a0bece9bb87.webp",
+                  "thumb": "/portfolio/5a0bece9bb87-thumb.webp",
+                  "width": 3840,
+                  "height": 2160,
+                  "source": "界面/模力营/模力营文娱内页.jpg",
+                  "sourceSha256": "07bcdc0523824ebc0a0cde290c57b67673eb7ca1f2a2f96ff27e0a4ba42e3e4a"
+                },
+                {
+                  "id": "dc9346048f5c",
+                  "name": "深圳模力营",
+                  "filename": "深圳模力营.jpg",
+                  "src": "/portfolio/dc9346048f5c.webp",
+                  "thumb": "/portfolio/dc9346048f5c-thumb.webp",
+                  "width": 3840,
+                  "height": 2160,
+                  "source": "界面/模力营/深圳模力营.jpg",
+                  "sourceSha256": "426ccf9d70ed17863b4dad044ba9aee8a587693b65a98eec7f5d03674459bb7f"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "9b4299e5d6eb",
+          "name": "濮阳中华龙源馆",
+          "sourceFolder": "濮阳中华龙源馆",
+          "coverId": "1bb89fbc2e3a",
+          "groups": [
+            {
+              "id": "39184117546b",
+              "name": "屏一 24节气72物候",
+              "images": [
+                {
+                  "id": "1bb89fbc2e3a",
+                  "name": "1",
+                  "filename": "1.jpg",
+                  "src": "/portfolio/1bb89fbc2e3a.webp",
+                  "thumb": "/portfolio/1bb89fbc2e3a-thumb.webp",
+                  "width": 2160,
+                  "height": 3839,
+                  "source": "界面/濮阳中华龙源馆/屏一 24节气72物候/1.jpg",
+                  "sourceSha256": "368ace6613af3d93c3ccb2acba0085e2cfaef2c90337fdd460b6c99c6d648348"
+                },
+                {
+                  "id": "eddab7289252",
+                  "name": "2",
+                  "filename": "2.png",
+                  "src": "/portfolio/eddab7289252.webp",
+                  "thumb": "/portfolio/eddab7289252-thumb.webp",
+                  "width": 2160,
+                  "height": 3839,
+                  "source": "界面/濮阳中华龙源馆/屏一 24节气72物候/2.png",
+                  "sourceSha256": "4cb48e05d6986e6e5144c309e4b781641258205416b9c3dc12000fb0e323af4e"
+                },
+                {
+                  "id": "6e7701875faa",
+                  "name": "3",
+                  "filename": "3.png",
+                  "src": "/portfolio/6e7701875faa.webp",
+                  "thumb": "/portfolio/6e7701875faa-thumb.webp",
+                  "width": 2160,
+                  "height": 3839,
+                  "source": "界面/濮阳中华龙源馆/屏一 24节气72物候/3.png",
+                  "sourceSha256": "254a004d1eadb9e5ff51f96a52fc6d9ecf210fe3617474dc4dad85f01a6cf66a"
+                },
+                {
+                  "id": "819ed3970e17",
+                  "name": "4",
+                  "filename": "4.jpg",
+                  "src": "/portfolio/819ed3970e17.webp",
+                  "thumb": "/portfolio/819ed3970e17-thumb.webp",
+                  "width": 2160,
+                  "height": 3839,
+                  "source": "界面/濮阳中华龙源馆/屏一 24节气72物候/4.jpg",
+                  "sourceSha256": "2e834bb2d99d9a9000edbf03f4f62c6b8f71ca470d4ea58b5da63b1b5d8ecfee"
+                },
+                {
+                  "id": "607f421624f1",
+                  "name": "冬",
+                  "filename": "冬.jpg",
+                  "src": "/portfolio/607f421624f1.webp",
+                  "thumb": "/portfolio/607f421624f1-thumb.webp",
+                  "width": 2160,
+                  "height": 3839,
+                  "source": "界面/濮阳中华龙源馆/屏一 24节气72物候/冬.jpg",
+                  "sourceSha256": "96e67e4034fa63a4151f4c4d78cd1082004131fa1d607afe0cd0f217a01d8e11"
+                },
+                {
+                  "id": "af3de26da5f0",
+                  "name": "秋",
+                  "filename": "秋.jpg",
+                  "src": "/portfolio/af3de26da5f0.webp",
+                  "thumb": "/portfolio/af3de26da5f0-thumb.webp",
+                  "width": 2160,
+                  "height": 3839,
+                  "source": "界面/濮阳中华龙源馆/屏一 24节气72物候/秋.jpg",
+                  "sourceSha256": "2f562971cc64a3334af724787a25ed6d6002d9afdd10db2e7e973201dcb278f0"
+                },
+                {
+                  "id": "d6ecda6c3b90",
+                  "name": "诗经节气",
+                  "filename": "诗经节气.jpg",
+                  "src": "/portfolio/d6ecda6c3b90.webp",
+                  "thumb": "/portfolio/d6ecda6c3b90-thumb.webp",
+                  "width": 2160,
+                  "height": 3839,
+                  "source": "界面/濮阳中华龙源馆/屏一 24节气72物候/诗经节气.jpg",
+                  "sourceSha256": "1f62848470f18742ea51e5366f874eb1a0a17c4c845fff13e4a83cb7e4cf5255"
+                },
+                {
+                  "id": "0037e7254269",
+                  "name": "夏",
+                  "filename": "夏.jpg",
+                  "src": "/portfolio/0037e7254269.webp",
+                  "thumb": "/portfolio/0037e7254269-thumb.webp",
+                  "width": 2160,
+                  "height": 3839,
+                  "source": "界面/濮阳中华龙源馆/屏一 24节气72物候/夏.jpg",
+                  "sourceSha256": "6358739ca250cf9d75e1c4414b77c126daae67be614931215f2f563f216eb21c"
+                }
+              ]
+            },
+            {
+              "id": "6de162da32e6",
+              "name": "屏二 诗经里的节气",
+              "images": [
+                {
+                  "id": "ec6fc0728d33",
+                  "name": "龙诗经内页 春 (1)",
+                  "filename": "龙诗经内页 春 (1).jpg",
+                  "src": "/portfolio/ec6fc0728d33.webp",
+                  "thumb": "/portfolio/ec6fc0728d33-thumb.webp",
+                  "width": 2160,
+                  "height": 3839,
+                  "source": "界面/濮阳中华龙源馆/屏二 诗经里的节气/龙诗经内页 春 (1).jpg",
+                  "sourceSha256": "fe5ec3b1deaa1fb49384ca4af5189f706ddf1e42fe48a0a7d9d4508e1dde2d8d"
+                },
+                {
+                  "id": "7e65b85ec28f",
+                  "name": "龙诗经内页 冬 (1)",
+                  "filename": "龙诗经内页 冬 (1).jpg",
+                  "src": "/portfolio/7e65b85ec28f.webp",
+                  "thumb": "/portfolio/7e65b85ec28f-thumb.webp",
+                  "width": 2160,
+                  "height": 3839,
+                  "source": "界面/濮阳中华龙源馆/屏二 诗经里的节气/龙诗经内页 冬 (1).jpg",
+                  "sourceSha256": "1eafbdf950c4fc9d6cbbfc3889c4bacbb322009ca29d2bb18ad3a2b52bf529c6"
+                },
+                {
+                  "id": "a16453bfbd0b",
+                  "name": "龙诗经内页 秋 (1)",
+                  "filename": "龙诗经内页 秋 (1).jpg",
+                  "src": "/portfolio/a16453bfbd0b.webp",
+                  "thumb": "/portfolio/a16453bfbd0b-thumb.webp",
+                  "width": 2160,
+                  "height": 3839,
+                  "source": "界面/濮阳中华龙源馆/屏二 诗经里的节气/龙诗经内页 秋 (1).jpg",
+                  "sourceSha256": "fc27e43c27e59d62ca78c2f51227e37936bd41172d416d915ce8609b3997db39"
+                },
+                {
+                  "id": "1f8e2035c381",
+                  "name": "龙诗经内页 夏 (1)",
+                  "filename": "龙诗经内页 夏 (1).jpg",
+                  "src": "/portfolio/1f8e2035c381.webp",
+                  "thumb": "/portfolio/1f8e2035c381-thumb.webp",
+                  "width": 2160,
+                  "height": 3839,
+                  "source": "界面/濮阳中华龙源馆/屏二 诗经里的节气/龙诗经内页 夏 (1).jpg",
+                  "sourceSha256": "881415a3ca84fcc01506739c0e5094529c096d3ac4b069cd5ee4cba8fa2e45f2"
+                },
+                {
+                  "id": "6bfb9463401e",
+                  "name": "诗经节气 春 (1) (1)",
+                  "filename": "诗经节气 春 (1) (1).jpg",
+                  "src": "/portfolio/6bfb9463401e.webp",
+                  "thumb": "/portfolio/6bfb9463401e-thumb.webp",
+                  "width": 2160,
+                  "height": 3839,
+                  "source": "界面/濮阳中华龙源馆/屏二 诗经里的节气/诗经节气 春 (1) (1).jpg",
+                  "sourceSha256": "13f8fbcd0a9d46d8d0c1e947cc15b1fcc849d36c86d645d61ee493e6371526ac"
+                },
+                {
+                  "id": "4f2295d2bbf0",
+                  "name": "诗经节气 冬 (1)",
+                  "filename": "诗经节气 冬 (1).jpg",
+                  "src": "/portfolio/4f2295d2bbf0.webp",
+                  "thumb": "/portfolio/4f2295d2bbf0-thumb.webp",
+                  "width": 2160,
+                  "height": 3839,
+                  "source": "界面/濮阳中华龙源馆/屏二 诗经里的节气/诗经节气 冬 (1).jpg",
+                  "sourceSha256": "dd65a8c221d8ca9a80cb045848d5bef1c216a5b0ac01a16002a4653a7592f075"
+                },
+                {
+                  "id": "9b47d158b97d",
+                  "name": "诗经节气 秋",
+                  "filename": "诗经节气 秋.jpg",
+                  "src": "/portfolio/9b47d158b97d.webp",
+                  "thumb": "/portfolio/9b47d158b97d-thumb.webp",
+                  "width": 2160,
+                  "height": 3839,
+                  "source": "界面/濮阳中华龙源馆/屏二 诗经里的节气/诗经节气 秋.jpg",
+                  "sourceSha256": "c6000dba3bada168531a762614666488b2eb267729841a3c2207fca4e1130203"
+                },
+                {
+                  "id": "cba2dd7aa616",
+                  "name": "诗经节气 夏",
+                  "filename": "诗经节气 夏.jpg",
+                  "src": "/portfolio/cba2dd7aa616.webp",
+                  "thumb": "/portfolio/cba2dd7aa616-thumb.webp",
+                  "width": 2160,
+                  "height": 3839,
+                  "source": "界面/濮阳中华龙源馆/屏二 诗经里的节气/诗经节气 夏.jpg",
+                  "sourceSha256": "ee37f1a5abf703c7b4bbda99aafc52db076fd8958c9c2d144d646455686ad1b6"
+                }
+              ]
+            },
+            {
+              "id": "4d605705a7ee",
+              "name": "屏三 传统习俗",
+              "images": [
+                {
+                  "id": "c87c319108b2",
+                  "name": "传统习俗 春 内页",
+                  "filename": "传统习俗 春 内页.jpg",
+                  "src": "/portfolio/c87c319108b2.webp",
+                  "thumb": "/portfolio/c87c319108b2-thumb.webp",
+                  "width": 2160,
+                  "height": 3839,
+                  "source": "界面/濮阳中华龙源馆/屏三 传统习俗/传统习俗 春 内页.jpg",
+                  "sourceSha256": "4ec4cd6e6356f82ef70bb5566ee56c6120cc39b544360f513af4a5e8f02ed635"
+                },
+                {
+                  "id": "e82674232c26",
+                  "name": "传统习俗 冬 内页_",
+                  "filename": "传统习俗 冬 内页_.jpg",
+                  "src": "/portfolio/e82674232c26.webp",
+                  "thumb": "/portfolio/e82674232c26-thumb.webp",
+                  "width": 2160,
+                  "height": 3839,
+                  "source": "界面/濮阳中华龙源馆/屏三 传统习俗/传统习俗 冬 内页_.jpg",
+                  "sourceSha256": "8b9b28e511a2656ef3f27540d8d5a693f6ad4566bc73a3803a28b8ca3e9c3222"
+                },
+                {
+                  "id": "fdde649c5a92",
+                  "name": "传统习俗 秋 内页_",
+                  "filename": "传统习俗 秋 内页_.jpg",
+                  "src": "/portfolio/fdde649c5a92.webp",
+                  "thumb": "/portfolio/fdde649c5a92-thumb.webp",
+                  "width": 2160,
+                  "height": 3839,
+                  "source": "界面/濮阳中华龙源馆/屏三 传统习俗/传统习俗 秋 内页_.jpg",
+                  "sourceSha256": "bccd90342367ee80e776592fb4aa753e911a397b0669499c441a471c4f10642b"
+                },
+                {
+                  "id": "525314cb8f7b",
+                  "name": "传统习俗 夏 内页_",
+                  "filename": "传统习俗 夏 内页_.jpg",
+                  "src": "/portfolio/525314cb8f7b.webp",
+                  "thumb": "/portfolio/525314cb8f7b-thumb.webp",
+                  "width": 2160,
+                  "height": 3839,
+                  "source": "界面/濮阳中华龙源馆/屏三 传统习俗/传统习俗 夏 内页_.jpg",
+                  "sourceSha256": "39dd16b40868a2a6b7a1b71a7d4bda02cd2f6e729288b4b421d5c0558219d8b5"
+                },
+                {
+                  "id": "3e28e9a54269",
+                  "name": "传统习俗 CHUN",
+                  "filename": "传统习俗 CHUN.jpg",
+                  "src": "/portfolio/3e28e9a54269.webp",
+                  "thumb": "/portfolio/3e28e9a54269-thumb.webp",
+                  "width": 2160,
+                  "height": 3839,
+                  "source": "界面/濮阳中华龙源馆/屏三 传统习俗/传统习俗 CHUN.jpg",
+                  "sourceSha256": "e56a1790bcf73aed168244fdfea72c358a580a9f8c780cebbe038b13c244e3b9"
+                },
+                {
+                  "id": "b4e39c080703",
+                  "name": "传统习俗 DONG",
+                  "filename": "传统习俗 DONG.jpg",
+                  "src": "/portfolio/b4e39c080703.webp",
+                  "thumb": "/portfolio/b4e39c080703-thumb.webp",
+                  "width": 2160,
+                  "height": 3839,
+                  "source": "界面/濮阳中华龙源馆/屏三 传统习俗/传统习俗 DONG.jpg",
+                  "sourceSha256": "19a7cacd742e533082152a57b27caff023694e642eca11eeca25e3c5846b0c56"
+                },
+                {
+                  "id": "c0e22e535130",
+                  "name": "传统习俗 QIU",
+                  "filename": "传统习俗 QIU.jpg",
+                  "src": "/portfolio/c0e22e535130.webp",
+                  "thumb": "/portfolio/c0e22e535130-thumb.webp",
+                  "width": 2160,
+                  "height": 3839,
+                  "source": "界面/濮阳中华龙源馆/屏三 传统习俗/传统习俗 QIU.jpg",
+                  "sourceSha256": "65a40f3eafeed224a3e2e03ac0e4d1efd240923dbd8eb64ef1a00787c17cad3d"
+                },
+                {
+                  "id": "117165ebcb29",
+                  "name": "传统习俗 XIA",
+                  "filename": "传统习俗 XIA.jpg",
+                  "src": "/portfolio/117165ebcb29.webp",
+                  "thumb": "/portfolio/117165ebcb29-thumb.webp",
+                  "width": 2160,
+                  "height": 3839,
+                  "source": "界面/濮阳中华龙源馆/屏三 传统习俗/传统习俗 XIA.jpg",
+                  "sourceSha256": "2b4fed29263b5f23779b3e99cbba3bb4c1d90bc2388cac289756a1c218257ed5"
+                }
+              ]
+            },
+            {
+              "id": "c9be05ff6f31",
+              "name": "屏四 节气故事",
+              "images": [
+                {
+                  "id": "426fdfaad456",
+                  "name": "传统习俗 DONG",
+                  "filename": "传统习俗 DONG.jpg",
+                  "src": "/portfolio/426fdfaad456.webp",
+                  "thumb": "/portfolio/426fdfaad456-thumb.webp",
+                  "width": 2160,
+                  "height": 3839,
+                  "source": "界面/濮阳中华龙源馆/屏四 节气故事/传统习俗 DONG.jpg",
+                  "sourceSha256": "b2da70dbb608747fa8dd8569faed8b685ef1976bacdda36d3a9a039e5055c038"
+                },
+                {
+                  "id": "c578b25f92e0",
+                  "name": "传统习俗 QIU",
+                  "filename": "传统习俗 QIU.jpg",
+                  "src": "/portfolio/c578b25f92e0.webp",
+                  "thumb": "/portfolio/c578b25f92e0-thumb.webp",
+                  "width": 2160,
+                  "height": 3839,
+                  "source": "界面/濮阳中华龙源馆/屏四 节气故事/传统习俗 QIU.jpg",
+                  "sourceSha256": "c4eac4bee92ff9c0ecce018a42656fd666ab7c8460fd764ca264ef0a1ca8ff19"
+                },
+                {
+                  "id": "ebcf1b2f14aa",
+                  "name": "传统习俗 XIA",
+                  "filename": "传统习俗 XIA.jpg",
+                  "src": "/portfolio/ebcf1b2f14aa.webp",
+                  "thumb": "/portfolio/ebcf1b2f14aa-thumb.webp",
+                  "width": 2160,
+                  "height": 3839,
+                  "source": "界面/濮阳中华龙源馆/屏四 节气故事/传统习俗 XIA.jpg",
+                  "sourceSha256": "8d4b56c1a3d46d27d879836b37f4fac493233016ca4a0be27293e373a3102955"
+                },
+                {
+                  "id": "7ff83e9f87b4",
+                  "name": "节气故事",
+                  "filename": "节气故事.jpg",
+                  "src": "/portfolio/7ff83e9f87b4.webp",
+                  "thumb": "/portfolio/7ff83e9f87b4-thumb.webp",
+                  "width": 2160,
+                  "height": 3839,
+                  "source": "界面/濮阳中华龙源馆/屏四 节气故事/节气故事.jpg",
+                  "sourceSha256": "917e180fd8eb5dc8cfa9b6c9a88605e3df8fdc343428317fcf98c830516a4a70"
+                },
+                {
+                  "id": "59f039b85347",
+                  "name": "节气故事春",
+                  "filename": "节气故事春.jpg",
+                  "src": "/portfolio/59f039b85347.webp",
+                  "thumb": "/portfolio/59f039b85347-thumb.webp",
+                  "width": 2160,
+                  "height": 3839,
+                  "source": "界面/濮阳中华龙源馆/屏四 节气故事/节气故事春.jpg",
+                  "sourceSha256": "c478ff5403f475d0ac74387d1fdcd283a2ebb5916bc5254dc679b49c45e201af"
+                },
+                {
+                  "id": "b46f2c3e6657",
+                  "name": "节气故事冬",
+                  "filename": "节气故事冬.jpg",
+                  "src": "/portfolio/b46f2c3e6657.webp",
+                  "thumb": "/portfolio/b46f2c3e6657-thumb.webp",
+                  "width": 2160,
+                  "height": 3839,
+                  "source": "界面/濮阳中华龙源馆/屏四 节气故事/节气故事冬.jpg",
+                  "sourceSha256": "558f7fa19a9607ea0672e8c921d7f92707878e81defa3c0b893faf68c6721718"
+                },
+                {
+                  "id": "bf903edfb70c",
+                  "name": "节气故事秋",
+                  "filename": "节气故事秋.jpg",
+                  "src": "/portfolio/bf903edfb70c.webp",
+                  "thumb": "/portfolio/bf903edfb70c-thumb.webp",
+                  "width": 2160,
+                  "height": 3839,
+                  "source": "界面/濮阳中华龙源馆/屏四 节气故事/节气故事秋.jpg",
+                  "sourceSha256": "58fc56403baa71f4fbbef483846553fcd548489de67ae6a19ff2d067430a4d5c"
+                },
+                {
+                  "id": "85de1945f21f",
+                  "name": "节气故事夏",
+                  "filename": "节气故事夏.jpg",
+                  "src": "/portfolio/85de1945f21f.webp",
+                  "thumb": "/portfolio/85de1945f21f-thumb.webp",
+                  "width": 2160,
+                  "height": 3839,
+                  "source": "界面/濮阳中华龙源馆/屏四 节气故事/节气故事夏.jpg",
+                  "sourceSha256": "21c71bc59f57c5d11d37538f4b015671985083420a40ca4730ecfb2ea0baa9c3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "7a5af6345f17",
+          "name": "腾讯智慧选址",
+          "sourceFolder": "腾讯智慧选址",
+          "coverId": "3d7684c7d15d",
+          "groups": [
+            {
+              "id": "8425565a22fa",
+              "name": "效果图",
+              "images": [
+                {
+                  "id": "3d7684c7d15d",
+                  "name": "P1",
+                  "filename": "P1.jpg",
+                  "src": "/portfolio/3d7684c7d15d.webp",
+                  "thumb": "/portfolio/3d7684c7d15d-thumb.webp",
+                  "width": 3840,
+                  "height": 2160,
+                  "source": "界面/腾讯智慧选址/P1.jpg",
+                  "sourceSha256": "7de2e62b70c17d99a43e13d492db636fef887f0ff84d2c6b7abe716678cdb095"
+                },
+                {
+                  "id": "3d4aa64ff3a6",
+                  "name": "P2",
+                  "filename": "P2.jpg",
+                  "src": "/portfolio/3d4aa64ff3a6.webp",
+                  "thumb": "/portfolio/3d4aa64ff3a6-thumb.webp",
+                  "width": 3840,
+                  "height": 2160,
+                  "source": "界面/腾讯智慧选址/P2.jpg",
+                  "sourceSha256": "ec2e9dd184ddca063538c810ccea2291fd922148436f24c840972fe93ef3be90"
+                },
+                {
+                  "id": "2be204c3533c",
+                  "name": "P3",
+                  "filename": "P3.jpg",
+                  "src": "/portfolio/2be204c3533c.webp",
+                  "thumb": "/portfolio/2be204c3533c-thumb.webp",
+                  "width": 3840,
+                  "height": 2160,
+                  "source": "界面/腾讯智慧选址/P3.jpg",
+                  "sourceSha256": "362245855ed5ca2cec19b846b459c4285678c70670ca2ac17861650610a44d41"
+                },
+                {
+                  "id": "708f4495924a",
+                  "name": "P4",
+                  "filename": "P4.jpg",
+                  "src": "/portfolio/708f4495924a.webp",
+                  "thumb": "/portfolio/708f4495924a-thumb.webp",
+                  "width": 3840,
+                  "height": 2160,
+                  "source": "界面/腾讯智慧选址/P4.jpg",
+                  "sourceSha256": "6e08a0ad76c4200af6e0c038e55405b2b90448a816d87abdda1ff0b51ca42985"
+                },
+                {
+                  "id": "73ad275db610",
+                  "name": "P5",
+                  "filename": "P5.jpg",
+                  "src": "/portfolio/73ad275db610.webp",
+                  "thumb": "/portfolio/73ad275db610-thumb.webp",
+                  "width": 3840,
+                  "height": 2160,
+                  "source": "界面/腾讯智慧选址/P5.jpg",
+                  "sourceSha256": "3dcfab62628f9a3d40d927e408587b847d6491c6225d1157aa93331d7b487d2b"
+                },
+                {
+                  "id": "734f42c679ba",
+                  "name": "P6",
+                  "filename": "P6.jpg",
+                  "src": "/portfolio/734f42c679ba.webp",
+                  "thumb": "/portfolio/734f42c679ba-thumb.webp",
+                  "width": 3840,
+                  "height": 2160,
+                  "source": "界面/腾讯智慧选址/P6.jpg",
+                  "sourceSha256": "53ddd3e075ddbaaaa6a346573fb9ae4546c9b595031fd9ddd1a48e02ccadbf2c"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "c6b9f0b40fb3",
+          "name": "中车",
+          "sourceFolder": "中车",
+          "coverId": "cca9df86bed5",
+          "groups": [
+            {
+              "id": "57c91a376a4a",
+              "name": "效果图",
+              "images": [
+                {
+                  "id": "ee4becd660c8",
+                  "name": "八大产业",
+                  "filename": "八大产业.jpg",
+                  "src": "/portfolio/ee4becd660c8.webp",
+                  "thumb": "/portfolio/ee4becd660c8-thumb.webp",
+                  "width": 5120,
+                  "height": 1920,
+                  "source": "界面/中车/八大产业.jpg",
+                  "sourceSha256": "b8963730a496f2e6096b61cb0749f16d23a08ec44ce856094965b6e4e18edc5a"
+                },
+                {
+                  "id": "e3deda39b644",
+                  "name": "八大产业视频播放",
+                  "filename": "八大产业视频播放.jpg",
+                  "src": "/portfolio/e3deda39b644.webp",
+                  "thumb": "/portfolio/e3deda39b644-thumb.webp",
+                  "width": 5120,
+                  "height": 1920,
+                  "source": "界面/中车/八大产业视频播放.jpg",
+                  "sourceSha256": "ce2a7ffe09d4111eae65bf153863031d731728811698d679cb0c892259ca587c"
+                },
+                {
+                  "id": "26eabbc027ca",
+                  "name": "播控",
+                  "filename": "播控.jpg",
+                  "src": "/portfolio/26eabbc027ca.webp",
+                  "thumb": "/portfolio/26eabbc027ca-thumb.webp",
+                  "width": 5120,
+                  "height": 1920,
+                  "source": "界面/中车/播控.jpg",
+                  "sourceSha256": "6c7ec8bafdc71754b5800e4f29719a0617ecee53e024f46d5dd57554f19c38cf"
+                },
+                {
+                  "id": "cca9df86bed5",
+                  "name": "待机",
+                  "filename": "待机.jpg",
+                  "src": "/portfolio/cca9df86bed5.webp",
+                  "thumb": "/portfolio/cca9df86bed5-thumb.webp",
+                  "width": 5120,
+                  "height": 1920,
+                  "source": "界面/中车/待机.jpg",
+                  "sourceSha256": "29804d5bce7b3378421858936e27ff43d2c098e45466b64e72d159a5e82e9638"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "game-ui",
+      "name": "游戏UI",
+      "english": "GAME INTERFACE",
+      "description": "在操作与反馈之间，进入体验。",
+      "projects": [
+        {
+          "id": "f140d9b881a9",
+          "name": "钓鱼",
+          "sourceFolder": "钓鱼",
+          "coverId": "1382c273be76",
+          "groups": [
+            {
+              "id": "2aecbb57dbb4",
+              "name": "效果图",
+              "images": [
+                {
+                  "id": "cc500a1a5261",
+                  "name": "1",
+                  "filename": "1.jpg",
+                  "src": "/portfolio/cc500a1a5261.webp",
+                  "thumb": "/portfolio/cc500a1a5261-thumb.webp",
+                  "width": 5120,
+                  "height": 1300,
+                  "source": "游戏UI/钓鱼/1.jpg",
+                  "sourceSha256": "7ee0b56622efc23d4eaf586ea35dd798c43ade6f031cdd1637c5a8ebdce2e14d"
+                },
+                {
+                  "id": "e74cae0de9a1",
+                  "name": "2",
+                  "filename": "2.jpg",
+                  "src": "/portfolio/e74cae0de9a1.webp",
+                  "thumb": "/portfolio/e74cae0de9a1-thumb.webp",
+                  "width": 5120,
+                  "height": 1300,
+                  "source": "游戏UI/钓鱼/2.jpg",
+                  "sourceSha256": "2a8ff59383eb8f1222291f80bd61290392cb6721f4cb05231c31313172252ed3"
+                },
+                {
+                  "id": "bcf16e696197",
+                  "name": "3",
+                  "filename": "3.jpg",
+                  "src": "/portfolio/bcf16e696197.webp",
+                  "thumb": "/portfolio/bcf16e696197-thumb.webp",
+                  "width": 5120,
+                  "height": 1300,
+                  "source": "游戏UI/钓鱼/3.jpg",
+                  "sourceSha256": "7f2b3fb5b3a4ecdacbc8a9fc225e33a40d26ba7cb566898497cdc373e7b8af30"
+                },
+                {
+                  "id": "d032f3663901",
+                  "name": "5",
+                  "filename": "5.jpg",
+                  "src": "/portfolio/d032f3663901.webp",
+                  "thumb": "/portfolio/d032f3663901-thumb.webp",
+                  "width": 5120,
+                  "height": 1300,
+                  "source": "游戏UI/钓鱼/5.jpg",
+                  "sourceSha256": "4fad62a3e981e7f4a42c66175bae6ed8f0aba62e0c312fb7b6603f395caebdcd"
+                },
+                {
+                  "id": "4bbf9a3ace04",
+                  "name": "6",
+                  "filename": "6.jpg",
+                  "src": "/portfolio/4bbf9a3ace04.webp",
+                  "thumb": "/portfolio/4bbf9a3ace04-thumb.webp",
+                  "width": 5120,
+                  "height": 1300,
+                  "source": "游戏UI/钓鱼/6.jpg",
+                  "sourceSha256": "1eeb8099ed94349760a74e9995a577ed2d9615304faaa2aeff4e997be9101c42"
+                },
+                {
+                  "id": "a9defe48ea84",
+                  "name": "7",
+                  "filename": "7.jpg",
+                  "src": "/portfolio/a9defe48ea84.webp",
+                  "thumb": "/portfolio/a9defe48ea84-thumb.webp",
+                  "width": 5120,
+                  "height": 1300,
+                  "source": "游戏UI/钓鱼/7.jpg",
+                  "sourceSha256": "9405012423450bfd0a4ef58e3d606b36004e43d174c250757935c9b86a73626d"
+                },
+                {
+                  "id": "6acae67287a1",
+                  "name": "8",
+                  "filename": "8.jpg",
+                  "src": "/portfolio/6acae67287a1.webp",
+                  "thumb": "/portfolio/6acae67287a1-thumb.webp",
+                  "width": 5120,
+                  "height": 1300,
+                  "source": "游戏UI/钓鱼/8.jpg",
+                  "sourceSha256": "302975ab26d6a1dc21e16a1793751712d862a5d91845344d069dc90e35316be3"
+                },
+                {
+                  "id": "68867a3004c2",
+                  "name": "9",
+                  "filename": "9.jpg",
+                  "src": "/portfolio/68867a3004c2.webp",
+                  "thumb": "/portfolio/68867a3004c2-thumb.webp",
+                  "width": 5120,
+                  "height": 1300,
+                  "source": "游戏UI/钓鱼/9.jpg",
+                  "sourceSha256": "eb3802fa1f02133e311eaf78c6aa1843cf3edfb5a36fe32cecbbf20f241808d6"
+                },
+                {
+                  "id": "3c06e0eaa87a",
+                  "name": "10",
+                  "filename": "10.jpg",
+                  "src": "/portfolio/3c06e0eaa87a.webp",
+                  "thumb": "/portfolio/3c06e0eaa87a-thumb.webp",
+                  "width": 5120,
+                  "height": 1300,
+                  "source": "游戏UI/钓鱼/10.jpg",
+                  "sourceSha256": "7c4fa33d139d83c71624a70d817336f91de5e386ba5521be72b33e01d12130f2"
+                },
+                {
+                  "id": "9eed5e7a8b8a",
+                  "name": "11",
+                  "filename": "11.jpg",
+                  "src": "/portfolio/9eed5e7a8b8a.webp",
+                  "thumb": "/portfolio/9eed5e7a8b8a-thumb.webp",
+                  "width": 5120,
+                  "height": 1300,
+                  "source": "游戏UI/钓鱼/11.jpg",
+                  "sourceSha256": "8c71b833b2b8bb90e0801367abafedabe6ce7da340892b5fe6f790785b3748a9"
+                },
+                {
+                  "id": "2f6e949041f9",
+                  "name": "12",
+                  "filename": "12.jpg",
+                  "src": "/portfolio/2f6e949041f9.webp",
+                  "thumb": "/portfolio/2f6e949041f9-thumb.webp",
+                  "width": 5120,
+                  "height": 1300,
+                  "source": "游戏UI/钓鱼/12.jpg",
+                  "sourceSha256": "45e8b174bb3c7fffe73692d8d3c7ac545e93cd3763c0e9ceb9c8a2f280775164"
+                },
+                {
+                  "id": "95cbfe4352da",
+                  "name": "13",
+                  "filename": "13.jpg",
+                  "src": "/portfolio/95cbfe4352da.webp",
+                  "thumb": "/portfolio/95cbfe4352da-thumb.webp",
+                  "width": 5120,
+                  "height": 1300,
+                  "source": "游戏UI/钓鱼/13.jpg",
+                  "sourceSha256": "aca92e951d8fca01fb480bb749ab3730fa487185ba2a3ed32d1287b400928d34"
+                },
+                {
+                  "id": "dabfaf29e79e",
+                  "name": "0722",
+                  "filename": "0722.jpg",
+                  "src": "/portfolio/dabfaf29e79e.webp",
+                  "thumb": "/portfolio/dabfaf29e79e-thumb.webp",
+                  "width": 5120,
+                  "height": 1300,
+                  "source": "游戏UI/钓鱼/0722.jpg",
+                  "sourceSha256": "620483190ad8c72e3346a5040cf761a3e1526e62aaa30554e9177e23d4affbc3"
+                },
+                {
+                  "id": "64c5b2a6bab5",
+                  "name": "0817新增钓鱼界面",
+                  "filename": "0817新增钓鱼界面.jpg",
+                  "src": "/portfolio/64c5b2a6bab5.webp",
+                  "thumb": "/portfolio/64c5b2a6bab5-thumb.webp",
+                  "width": 5120,
+                  "height": 1300,
+                  "source": "游戏UI/钓鱼/0817新增钓鱼界面.jpg",
+                  "sourceSha256": "4493df750a592d2e8f95a76aa8e4f5e5d2ed362fc7177279d321263ee0024d65"
+                },
+                {
+                  "id": "0c2434f67aeb",
+                  "name": "07222",
+                  "filename": "07222.jpg",
+                  "src": "/portfolio/0c2434f67aeb.webp",
+                  "thumb": "/portfolio/0c2434f67aeb-thumb.webp",
+                  "width": 5120,
+                  "height": 1300,
+                  "source": "游戏UI/钓鱼/07222.jpg",
+                  "sourceSha256": "513402f6fe6da573d9e1b4968859171368b91734f1903edc9f0fc8291a1bd11f"
+                },
+                {
+                  "id": "bb1901edc222",
+                  "name": "121121",
+                  "filename": "121121.jpg",
+                  "src": "/portfolio/bb1901edc222.webp",
+                  "thumb": "/portfolio/bb1901edc222-thumb.webp",
+                  "width": 5120,
+                  "height": 1300,
+                  "source": "游戏UI/钓鱼/121121.jpg",
+                  "sourceSha256": "bfba99b331f5ef951fedad109775605b65e4d9347b22d480573f1d8b17c9ed05"
+                },
+                {
+                  "id": "1382c273be76",
+                  "name": "待机",
+                  "filename": "待机.jpg",
+                  "src": "/portfolio/1382c273be76.webp",
+                  "thumb": "/portfolio/1382c273be76-thumb.webp",
+                  "width": 5120,
+                  "height": 1300,
+                  "source": "游戏UI/钓鱼/待机.jpg",
+                  "sourceSha256": "24f0b2c321df047c8789ea65e31f64d3be45c62bbedd73b868ddfac9a9c692be"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "7f4e5947fcb9",
+          "name": "拳靶",
+          "sourceFolder": "拳靶",
+          "coverId": "5fd51b4f7809",
+          "groups": [
+            {
+              "id": "961ce6fef366",
+              "name": "效果图",
+              "images": [
+                {
+                  "id": "5fd51b4f7809",
+                  "name": "1",
+                  "filename": "1.jpg",
+                  "src": "/portfolio/5fd51b4f7809.webp",
+                  "thumb": "/portfolio/5fd51b4f7809-thumb.webp",
+                  "width": 1920,
+                  "height": 1200,
+                  "source": "游戏UI/拳靶/1.jpg",
+                  "sourceSha256": "ed335b440bba8f3cfdd2978cfc1b9de0a6abf98f6aa7d419024a53dae0ee515f"
+                },
+                {
+                  "id": "cb241391d0c2",
+                  "name": "8-2",
+                  "filename": "8-2.jpg",
+                  "src": "/portfolio/cb241391d0c2.webp",
+                  "thumb": "/portfolio/cb241391d0c2-thumb.webp",
+                  "width": 1920,
+                  "height": 1200,
+                  "source": "游戏UI/拳靶/8-2.jpg",
+                  "sourceSha256": "1e921dcd87a9f55122c7204ed7cbe845816db3e226c80cb3c9b44b77bade7b66"
+                },
+                {
+                  "id": "2bff48393d13",
+                  "name": "8-3",
+                  "filename": "8-3.jpg",
+                  "src": "/portfolio/2bff48393d13.webp",
+                  "thumb": "/portfolio/2bff48393d13-thumb.webp",
+                  "width": 1920,
+                  "height": 1200,
+                  "source": "游戏UI/拳靶/8-3.jpg",
+                  "sourceSha256": "80c6efc7443d4f42e4059689af02c4ee0160760dd3248e10233b0849e22b91d8"
+                },
+                {
+                  "id": "7b2ab387fc55",
+                  "name": "8-4",
+                  "filename": "8-4.jpg",
+                  "src": "/portfolio/7b2ab387fc55.webp",
+                  "thumb": "/portfolio/7b2ab387fc55-thumb.webp",
+                  "width": 1920,
+                  "height": 1200,
+                  "source": "游戏UI/拳靶/8-4.jpg",
+                  "sourceSha256": "9dcb49223c8e62b25915697f272f088184740c62d0458f304522ffeaf228f2b1"
+                },
+                {
+                  "id": "02d121a89ed4",
+                  "name": "8",
+                  "filename": "8.jpg",
+                  "src": "/portfolio/02d121a89ed4.webp",
+                  "thumb": "/portfolio/02d121a89ed4-thumb.webp",
+                  "width": 1920,
+                  "height": 1200,
+                  "source": "游戏UI/拳靶/8.jpg",
+                  "sourceSha256": "d966c02789906ec5fe4106fbb3f96341c3c309218ab77fd1b6baccdc10434b2f"
+                },
+                {
+                  "id": "45394335df71",
+                  "name": "10",
+                  "filename": "10.jpg",
+                  "src": "/portfolio/45394335df71.webp",
+                  "thumb": "/portfolio/45394335df71-thumb.webp",
+                  "width": 1920,
+                  "height": 1200,
+                  "source": "游戏UI/拳靶/10.jpg",
+                  "sourceSha256": "35663f0a952d8601818cdd1a5330545dcfd9c4812f4450744ce5c5c4943ffdab"
+                },
+                {
+                  "id": "455a1948e1ba",
+                  "name": "登陆状态",
+                  "filename": "登陆状态.png",
+                  "src": "/portfolio/455a1948e1ba.webp",
+                  "thumb": "/portfolio/455a1948e1ba-thumb.webp",
+                  "width": 1920,
+                  "height": 1200,
+                  "source": "游戏UI/拳靶/登陆状态.png",
+                  "sourceSha256": "6ee7c9c6306245010eb4c45fa3b32c18cbb26e66da9a5a2f4cdc8f1086c55687"
+                },
+                {
+                  "id": "47fabd7bca4e",
+                  "name": "回合",
+                  "filename": "回合.jpg",
+                  "src": "/portfolio/47fabd7bca4e.webp",
+                  "thumb": "/portfolio/47fabd7bca4e-thumb.webp",
+                  "width": 1920,
+                  "height": 1200,
+                  "source": "游戏UI/拳靶/回合.jpg",
+                  "sourceSha256": "79f0e19f4f145464edc4b1fb31ca879945256847225cc27f03e36a5430da9824"
+                },
+                {
+                  "id": "bb08e156e127",
+                  "name": "角色选择",
+                  "filename": "角色选择.jpg",
+                  "src": "/portfolio/bb08e156e127.webp",
+                  "thumb": "/portfolio/bb08e156e127-thumb.webp",
+                  "width": 1920,
+                  "height": 1200,
+                  "source": "游戏UI/拳靶/角色选择.jpg",
+                  "sourceSha256": "17630bc5eac376621fabf679142673dbc4e024e362942afc694bcf06e8c9abaa"
+                },
+                {
+                  "id": "c28fbbb37471",
+                  "name": "角色选择",
+                  "filename": "角色选择.png",
+                  "src": "/portfolio/c28fbbb37471.webp",
+                  "thumb": "/portfolio/c28fbbb37471-thumb.webp",
+                  "width": 1920,
+                  "height": 1200,
+                  "source": "游戏UI/拳靶/角色选择.png",
+                  "sourceSha256": "6597fae5f0e5f34319aa53d64977e49c292cdd4a761008953881fce9b68e16c2"
+                },
+                {
+                  "id": "16a3945e9600",
+                  "name": "教学引导",
+                  "filename": "教学引导.jpg",
+                  "src": "/portfolio/16a3945e9600.webp",
+                  "thumb": "/portfolio/16a3945e9600-thumb.webp",
+                  "width": 1920,
+                  "height": 1200,
+                  "source": "游戏UI/拳靶/教学引导.jpg",
+                  "sourceSha256": "f1e693be5a9fb90860103dfb02c031a559fbe2bad26e7e754f253ae17c469cab"
+                },
+                {
+                  "id": "06f2745db0e9",
+                  "name": "结算",
+                  "filename": "结算.jpg",
+                  "src": "/portfolio/06f2745db0e9.webp",
+                  "thumb": "/portfolio/06f2745db0e9-thumb.webp",
+                  "width": 1920,
+                  "height": 1200,
+                  "source": "游戏UI/拳靶/结算.jpg",
+                  "sourceSha256": "59785a3c3d685a711cf28111ca9ceb10103b2e1ddbcca6d834bfc2f0a277b2d0"
+                },
+                {
+                  "id": "e1292fa6245e",
+                  "name": "游戏中",
+                  "filename": "游戏中.jpg",
+                  "src": "/portfolio/e1292fa6245e.webp",
+                  "thumb": "/portfolio/e1292fa6245e-thumb.webp",
+                  "width": 1920,
+                  "height": 1200,
+                  "source": "游戏UI/拳靶/游戏中.jpg",
+                  "sourceSha256": "1d9bf8a131dd1256c12a9a827663762ec297533f0bced0e58d980dfc1a2e3273"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "f16a06c7d8fb",
+          "name": "少年苏东坡",
+          "sourceFolder": "少年苏东坡",
+          "coverId": "552ef46e7cee",
+          "groups": [
+            {
+              "id": "4ce24329b81f",
+              "name": "效果图",
+              "images": [
+                {
+                  "id": "552ef46e7cee",
+                  "name": "待机",
+                  "filename": "待机.png",
+                  "src": "/portfolio/552ef46e7cee.webp",
+                  "thumb": "/portfolio/552ef46e7cee-thumb.webp",
+                  "width": 2160,
+                  "height": 3840,
+                  "source": "游戏UI/少年苏东坡/待机.png",
+                  "sourceSha256": "aea08414103f5f78f9c43850442233f5aae783f13843b50bfbbb8ecfde2d0444"
+                },
+                {
+                  "id": "a0eaf4c20585",
+                  "name": "倒计时",
+                  "filename": "倒计时.png",
+                  "src": "/portfolio/a0eaf4c20585.webp",
+                  "thumb": "/portfolio/a0eaf4c20585-thumb.webp",
+                  "width": 2160,
+                  "height": 3840,
+                  "source": "游戏UI/少年苏东坡/倒计时.png",
+                  "sourceSha256": "03a191871eb1082df8a690d7bb45745da32cdcc0f1ebf39f98db3f394b44fdf1"
+                },
+                {
+                  "id": "1fc073ba2a69",
+                  "name": "画圈交互",
+                  "filename": "画圈交互.png",
+                  "src": "/portfolio/1fc073ba2a69.webp",
+                  "thumb": "/portfolio/1fc073ba2a69-thumb.webp",
+                  "width": 2160,
+                  "height": 3840,
+                  "source": "游戏UI/少年苏东坡/画圈交互.png",
+                  "sourceSha256": "a9c721bc829d0d3a7e57728c0b120a9dcb275d4080705869e27b528f69c78019"
+                },
+                {
+                  "id": "1579d61ddcea",
+                  "name": "结算",
+                  "filename": "结算.png",
+                  "src": "/portfolio/1579d61ddcea.webp",
+                  "thumb": "/portfolio/1579d61ddcea-thumb.webp",
+                  "width": 2160,
+                  "height": 3840,
+                  "source": "游戏UI/少年苏东坡/结算.png",
+                  "sourceSha256": "9c29a912b30bc60afcda9c6a43e2ce0a7419eba2636fc4d450bc9a7beacaad20"
+                },
+                {
+                  "id": "48354f94d6ef",
+                  "name": "游戏教学",
+                  "filename": "游戏教学.png",
+                  "src": "/portfolio/48354f94d6ef.webp",
+                  "thumb": "/portfolio/48354f94d6ef-thumb.webp",
+                  "width": 2160,
+                  "height": 3840,
+                  "source": "游戏UI/少年苏东坡/游戏教学.png",
+                  "sourceSha256": "b3d9935a909797e652759b936420772eddce4a57f94deb0400fb34f652f7bf6e"
+                },
+                {
+                  "id": "3680e2b6a4bf",
+                  "name": "游戏中",
+                  "filename": "游戏中.png",
+                  "src": "/portfolio/3680e2b6a4bf.webp",
+                  "thumb": "/portfolio/3680e2b6a4bf-thumb.webp",
+                  "width": 2160,
+                  "height": 3840,
+                  "source": "游戏UI/少年苏东坡/游戏中.png",
+                  "sourceSha256": "2f8e8470559174c02536803bce40285512022ea8f1f27f20745c10985b44937e"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "events",
+      "name": "公司活动",
+      "english": "EVENT VISUALS",
+      "description": "从活动主视觉，到不同场景的延展。",
+      "projects": [
+        {
+          "id": "c0b37c4e70e2",
+          "name": "公司活动 01",
+          "sourceFolder": "1",
+          "coverId": "47c4cc3712c3",
+          "groups": [
+            {
+              "id": "e278d8dfc8a8",
+              "name": "效果图",
+              "images": [
+                {
+                  "id": "6a4f0e416988",
+                  "name": "竖版KV",
+                  "filename": "竖版KV.jpg",
+                  "src": "/portfolio/6a4f0e416988.webp",
+                  "thumb": "/portfolio/6a4f0e416988-thumb.webp",
+                  "width": 1080,
+                  "height": 1920,
+                  "source": "公司活动/1/竖版KV.jpg",
+                  "sourceSha256": "72b92aeeed3d81cbd353903386bd4bc761093d9239678527fc5cfb66b8597370"
+                },
+                {
+                  "id": "47c4cc3712c3",
+                  "name": "KV1920",
+                  "filename": "KV1920.jpg",
+                  "src": "/portfolio/47c4cc3712c3.webp",
+                  "thumb": "/portfolio/47c4cc3712c3-thumb.webp",
+                  "width": 1920,
+                  "height": 1080,
+                  "source": "公司活动/1/KV1920.jpg",
+                  "sourceSha256": "280035fa12d2bf334a57e80d0b3e451bfd7c0bc7dc4d6df92b2fd4a61f3cf998"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "7550bc6ed1f9",
+          "name": "公司活动 02",
+          "sourceFolder": "2",
+          "coverId": "7a55aa62f181",
+          "groups": [
+            {
+              "id": "fb8cb1314440",
+              "name": "效果图",
+              "images": [
+                {
+                  "id": "167cafed253e",
+                  "name": "画板 1",
+                  "filename": "画板 1.png",
+                  "src": "/portfolio/167cafed253e.webp",
+                  "thumb": "/portfolio/167cafed253e-thumb.webp",
+                  "width": 2048,
+                  "height": 5120,
+                  "source": "公司活动/2/画板 1.png",
+                  "sourceSha256": "ef6adaf52d14adf565bc1fc16b24db6890b67f68d6c6f56e85fc3dbcc45e545c"
+                },
+                {
+                  "id": "7a55aa62f181",
+                  "name": "竖版主视觉",
+                  "filename": "竖版主视觉.png",
+                  "src": "/portfolio/7a55aa62f181.webp",
+                  "thumb": "/portfolio/7a55aa62f181-thumb.webp",
+                  "width": 1200,
+                  "height": 1770,
+                  "source": "公司活动/2/竖版主视觉.png",
+                  "sourceSha256": "f6de954b5a32b52bbd6c9b3d4b8dfc7874560b2d63a0cea564134c883f20d4aa"
+                },
+                {
+                  "id": "81d6873cf544",
+                  "name": "邀请函",
+                  "filename": "邀请函.jpg",
+                  "src": "/portfolio/81d6873cf544.webp",
+                  "thumb": "/portfolio/81d6873cf544-thumb.webp",
+                  "width": 1200,
+                  "height": 1600,
+                  "source": "公司活动/2/邀请函.jpg",
+                  "sourceSha256": "10f9ba2a36216b1e0e2f373d1c38cae216abf3430d98592eb023715cff351a0e"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

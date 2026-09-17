@@ -1,25 +1,23 @@
 'use client';
 
 import { useEffect, useRef, useState, useSyncExternalStore } from 'react';
-import type { KeyboardEvent, ReactNode } from 'react';
+import type { KeyboardEvent } from 'react';
+import { GlassDialog } from './components/glass-dialog';
+import { PortfolioBrowser } from './components/portfolio-browser';
+import { categoryImageCount, portfolio, portfolioImageCount, portfolioProjectCount } from './data/portfolio';
 
 const COMPANY = '上海风语筑文化科技股份有限公司';
 const EMAIL = 'hello@lindesign.work';
 const sections = [{ id: 'top', label: '首页' }, { id: 'work', label: '作品' }, { id: 'about', label: '关于' }, { id: 'contact', label: '联系' }];
-const categories = ['全部作品', 'UI 界面', '活动视觉', '组件规范'] as const;
+const categories = ['全部作品', '界面', '游戏UI', '公司活动'] as const;
 type Category = typeof categories[number];
-const projects = [
-  { id: '01', title: 'YOUNG SU', subtitle: '产品界面与交互体验', category: 'UI 界面', year: '2026', focus: '让信息有层次，让操作有回应。', description: '从界面结构、视觉层级到操作反馈，关注每一步体验的清晰与连贯。', tags: ['界面设计', '信息层级', '交互反馈'], content: ['界面结构与页面关系', '关键操作与状态反馈', '视觉语言与细节表达'] },
-  { id: '02', title: 'MOTION / 08', subtitle: '活动海报与视觉延展', category: '活动视觉', year: '2026', focus: '让活动主题，拥有鲜明的表达。', description: '围绕公司活动的传播需求，关注主题表达、文字编排和视觉节奏，将设计能力延展到活动海报中。', tags: ['活动海报', '视觉编排', '主题表达'], content: ['活动主题与核心信息', '海报版式与视觉重心', '不同使用场景的视觉延展'] },
-  { id: '03', title: 'NORTH LAB', subtitle: 'UI 组件与设计规范', category: '组件规范', year: '2025', focus: '用一致的细节，连接完整的体验。', description: '关注界面中可复用的元素，以统一的字号、间距和组件状态，让设计表达更加有序。', tags: ['UI 组件', '视觉规范', '状态设计'], content: ['字体、色彩与间距', '基础组件与交互状态', '页面中的一致性应用'] },
-] as const;
 const abilities = [
   { label: 'UI 界面', title: '让复杂的信息，变得清晰。', text: '围绕用户需求与业务目标，梳理信息层级和页面关系，通过视觉秩序帮助用户理解内容、完成操作。', tags: ['信息层级', '界面布局', '视觉语言'] },
   { label: '交互体验', title: '让每一次操作，都有自然的回应。', text: '关注操作路径、状态变化和反馈，让页面之间的衔接清晰，让界面细节服务于完整的使用体验。', tags: ['操作路径', '状态反馈', '体验连贯性'] },
   { label: '组件规范', title: '将细节沉淀为一致的设计语言。', text: '从字体、色彩和间距到基础组件，关注设计规则在不同页面中的一致应用，也为后续协作保留清晰依据。', tags: ['组件复用', '视觉一致性', '设计交付'] },
   { label: '活动视觉', title: '将界面之外的想法，也表达出来。', text: '在 UI 设计工作之外，为公司活动制作海报，关注主题、文字与图形的组织，让传播信息明确而有辨识度。', tags: ['活动海报', '信息编排', '视觉延展'] },
 ];
-type Panel = { type: 'explore' } | { type: 'project'; index: number } | { type: 'about' } | { type: 'contact' } | null;
+type Panel = { type: 'portfolio'; categoryId?: string } | { type: 'about' } | { type: 'contact' } | null;
 
 function subscribeMotion(callback: () => void) {
   const query = window.matchMedia('(prefers-reduced-motion: reduce)');
@@ -160,27 +158,11 @@ function Tabs({ labels, selected, onChange, id }: { labels: readonly string[]; s
   return <div className="segmented glass" role="tablist" aria-label={id === 'work' ? '作品分类' : '内容选择'}>{labels.map((label, i) => <button key={label} type="button" role="tab" id={`${id}-tab-${i}`} aria-controls={`${id}-panel`} aria-selected={selected === i} tabIndex={selected === i ? 0 : -1} onKeyDown={(e) => navigate(e, i)} onClick={() => onChange(i)}>{label}</button>)}</div>;
 }
 
-function GlassDialog({ title, breadcrumb, close, children }: { title: string; breadcrumb: string; close: () => void; children: ReactNode }) {
-  const ref = useRef<HTMLDialogElement>(null);
-  useEffect(() => {
-    const dialog = ref.current;
-    const previousFocus = document.activeElement as HTMLElement | null;
-    const previousOverflow = document.body.style.overflow;
-    dialog?.showModal(); document.body.style.overflow = 'hidden';
-    return () => { dialog?.close(); document.body.style.overflow = previousOverflow; previousFocus?.focus({ preventScroll: true }); };
-  }, []);
-  return <dialog ref={ref} className="detail-dialog glass" aria-labelledby="dialog-title" onCancel={close} onClick={(e) => { if (e.target === e.currentTarget) { const rect = e.currentTarget.getBoundingClientRect(); if (e.clientX < rect.left || e.clientX > rect.right || e.clientY < rect.top || e.clientY > rect.bottom) close(); } }}>
-    <div className="dialog-top"><span>{breadcrumb}</span><button type="button" className="small-button" onClick={close} autoFocus aria-label="关闭二级界面">返回</button></div>
-    <div className="dialog-body"><h2 id="dialog-title">{title}</h2>{children}</div>
-  </dialog>;
-}
-
 export default function Home() {
   const [activeSection, setActiveSection] = useState('top');
   const [category, setCategory] = useState<Category>('全部作品');
   const [ability, setAbility] = useState(0);
   const [panel, setPanel] = useState<Panel>(null);
-  const [detailTab, setDetailTab] = useState(0);
   const [aboutTab, setAboutTab] = useState(0);
   const [topic, setTopic] = useState(0);
   const [message, setMessage] = useState('');
@@ -198,13 +180,11 @@ export default function Home() {
     return () => observer.disconnect();
   }, []);
 
-  const open = (next: NonNullable<Panel>) => { setDetailTab(0); setCopyState('复制邮箱'); setPanel(next); };
-  const chooseCategory = (next: Category) => { setCategory(next); setPanel(null); window.requestAnimationFrame(() => document.getElementById('work')?.scrollIntoView({ behavior: motionActive ? 'smooth' : 'instant' })); };
+  const open = (next: NonNullable<Panel>) => { setCopyState('复制邮箱'); setPanel(next); };
   const copyEmail = async () => {
     try { await navigator.clipboard.writeText(EMAIL); setCopyState('邮箱已复制'); }
     catch { setCopyState('请长按或选中邮箱复制'); }
   };
-  const currentProject = panel?.type === 'project' ? projects[panel.index] : null;
 
   return <main data-motion={motionActive ? 'on' : 'off'}>
     <a className="skip-link" href="#work">跳转到作品</a>
@@ -224,7 +204,7 @@ export default function Home() {
         <div className="eyebrow hero-eyebrow"><span>UI 界面设计师</span><span className="eyebrow-divider" />UI & VISUAL DESIGN</div>
         <h1 id="hero-title" aria-label="殷川的转正作品集">殷川<span className="quiet-word">的</span><br />转正作品集</h1>
         <p className="hero-description">专注 UI 界面与交互体验，<br />也为公司活动提供视觉设计支持。</p>
-        <button className="pill-button glass primary-action" onClick={() => open({ type: 'explore' })}>探索我的作品<span className="button-caption">EXPLORE</span></button>
+        <button className="pill-button glass primary-action" onClick={() => open({ type: 'portfolio' })}>探索我的作品<span className="button-caption">EXPLORE</span></button>
       </div>
       <div className="hero-bottom">
         <div className="company-block"><span className="location">中国·上海</span><p>{COMPANY}</p></div>
@@ -234,17 +214,17 @@ export default function Home() {
     </section>
 
     <section className="work-section page-section" id="work" aria-labelledby="work-title">
-      <div className="section-heading"><span className="eyebrow">01 / SELECTED WORK</span><span className="eyebrow">2025 — 2026</span></div>
+      <div className="section-heading"><span className="eyebrow">01 / SELECTED WORK</span><span className="eyebrow">{portfolioProjectCount} 个项目 · {portfolioImageCount} 张效果图</span></div>
       <div className="section-intro"><h2 id="work-title">设计，有迹可循。</h2><p>从界面到视觉，<br />让每一种表达，都回应真实需求。</p></div>
       <Tabs labels={categories} selected={categories.indexOf(category)} onChange={(index) => setCategory(categories[index])} id="work" />
       <div className="project-grid" role="tabpanel" id="work-panel" aria-labelledby={`work-tab-${categories.indexOf(category)}`}>
-        {projects.map((project, index) => category === '全部作品' || project.category === category ? <button className={`project-card glass project-${index}`} key={project.id} onClick={() => open({ type: 'project', index })} aria-label={`查看 ${project.title} 项目详情`}>
-          <div className="project-topline"><span>{project.category}</span><span>{project.year}</span></div>
-          <div className="project-type"><span>{project.id}</span><h3>{project.title}</h3><p>{project.subtitle}</p></div>
-          <div className="project-bottom"><span>{project.tags[0]} / {project.tags[1]}</span><span>查看项目</span></div>
+        {portfolio.map((item, index) => category === '全部作品' || item.name === category ? <button className={`project-card glass project-${index}`} key={item.id} onClick={() => open({ type: 'portfolio', categoryId: item.id })} aria-label={`浏览${item.name}，${item.projects.length}个项目`}>
+          <div className="project-topline"><span>{item.english}</span><span>{item.projects.length} 个项目</span></div>
+          <div className="project-type"><span>0{index + 1}</span><h3>{item.name}</h3><p>{item.description}</p></div>
+          <div className="project-bottom"><span>{categoryImageCount(item)} 张效果图</span><span>选择项目 ↗</span></div>
         </button> : null)}
       </div>
-      <div className="section-bottom"><p>UI 设计为主线，活动视觉为延展。</p><button className="text-button" onClick={() => open({ type: 'explore' })}>按设计方向浏览</button></div>
+      <div className="section-bottom"><p>UI 设计为主线，活动视觉为延展。</p><button className="text-button" onClick={() => open({ type: 'portfolio' })}>按设计方向浏览</button></div>
     </section>
 
     <section className="about-section page-section" id="about" aria-labelledby="about-title">
@@ -262,13 +242,10 @@ export default function Home() {
 
     <button className="motion-control glass" aria-pressed={motionPaused || reduceMotion} onClick={() => setMotionPaused(!motionPaused)} disabled={reduceMotion} aria-label={reduceMotion ? '已遵循系统减少动态效果设置' : motionPaused ? '开启背景呼吸与粒子拖尾' : '暂停背景呼吸与粒子拖尾'}><span className="motion-indicator" />{reduceMotion ? '静态模式' : motionPaused ? '动态已暂停' : '呼吸动态'}</button>
 
-    {panel && <GlassDialog close={() => setPanel(null)} breadcrumb={`首页 / ${{ explore: '作品导航', project: '精选作品', about: '关于我', contact: '联系交流' }[panel.type]}`} title={panel.type === 'explore' ? '从感兴趣的方向开始。' : panel.type === 'about' ? '设计背后的思考。' : panel.type === 'contact' ? '想聊些什么？' : currentProject!.title}>
-      {panel.type === 'explore' && <><p className="dialog-intro">选择一个方向，浏览对应作品。</p><div className="choice-list">{categories.slice(1).map((item, index) => <button key={item} onClick={() => chooseCategory(item)}><span className="choice-number">0{index + 1}</span><span><strong>{item}</strong><small>{projects[index].subtitle}</small></span><span className="choice-count">01 项目</span></button>)}</div><button className="text-button dialog-link" onClick={() => chooseCategory('全部作品')}>查看全部作品</button></>}
-      {panel.type === 'project' && currentProject && <><div className="project-detail-meta"><span>{currentProject.subtitle}</span><span>{currentProject.year}</span></div><Tabs id="project-detail" labels={['项目概览', '设计关注', '内容目录']} selected={detailTab} onChange={setDetailTab} /><div id="project-detail-panel" role="tabpanel" aria-labelledby={`project-detail-tab-${detailTab}`} className="project-detail-content" key={`${currentProject.id}-${detailTab}`}>
-        {detailTab === 0 ? <><span className="eyebrow">{currentProject.category}</span><h3>{currentProject.focus}</h3><p>{currentProject.description}</p><div className="tags">{currentProject.tags.map((tag) => <span key={tag}>{tag}</span>)}</div></> : detailTab === 1 ? <><h3>关注体验，也关注表达。</h3><p>{currentProject.description}</p><ol className="detail-list">{currentProject.content.map((item) => <li key={item}>{item}</li>)}</ol></> : <><h3>项目内容索引</h3><ol className="detail-list">{currentProject.content.map((item) => <li key={item}>{item}</li>)}</ol><p className="content-note">当前展示项目文字概览，完整设计图待补充。</p></>}
-      </div><div className="dialog-bottom"><button className="text-button" onClick={() => open({ type: 'explore' })}>返回作品分类</button><button className="small-button" onClick={() => open({ type: 'project', index: (panel.index + 1) % projects.length })}>下一个项目</button></div></>}
+    {panel?.type === 'portfolio' && <PortfolioBrowser initialCategoryId={panel.categoryId} close={() => setPanel(null)} />}
+    {panel && panel.type !== 'portfolio' && <GlassDialog close={() => setPanel(null)} breadcrumb={`首页 / ${panel.type === 'about' ? '关于我' : '联系交流'}`} title={panel.type === 'about' ? '设计背后的思考。' : '想聊些什么？'}>
       {panel.type === 'about' && <><Tabs id="about-detail" labels={['工作定位', '设计方法', '视觉延展']} selected={aboutTab} onChange={setAboutTab} /><div id="about-detail-panel" role="tabpanel" aria-labelledby={`about-detail-tab-${aboutTab}`} className="project-detail-content" key={aboutTab}>
-        {aboutTab === 0 ? <><span className="eyebrow">UI DESIGNER / SHANGHAI</span><h3>UI 界面设计师</h3><p>{COMPANY}</p><p>专注 UI 界面与交互体验，同时参与公司活动海报设计，将清晰的信息组织与视觉表达带入不同的设计场景。</p></> : aboutTab === 1 ? <><h3>从问题出发，让设计有依据。</h3><ol className="detail-list"><li>理解需求：明确用户任务与业务目标。</li><li>梳理结构：组织信息，理顺操作路径。</li><li>形成表达：统一视觉语言与组件状态。</li><li>关注细节：检查可用性与界面一致性。</li></ol></> : <><h3>界面之外，延续视觉思考。</h3><p>{abilities[3].text}</p><button className="pill-button glass" onClick={() => chooseCategory('活动视觉')}>浏览活动视觉作品</button></>}
+        {aboutTab === 0 ? <><span className="eyebrow">UI DESIGNER / SHANGHAI</span><h3>UI 界面设计师</h3><p>{COMPANY}</p><p>专注 UI 界面与交互体验，同时参与公司活动海报设计，将清晰的信息组织与视觉表达带入不同的设计场景。</p></> : aboutTab === 1 ? <><h3>从问题出发，让设计有依据。</h3><ol className="detail-list"><li>理解需求：明确用户任务与业务目标。</li><li>梳理结构：组织信息，理顺操作路径。</li><li>形成表达：统一视觉语言与组件状态。</li><li>关注细节：检查可用性与界面一致性。</li></ol></> : <><h3>界面之外，延续视觉思考。</h3><p>{abilities[3].text}</p><button className="pill-button glass" onClick={() => open({ type: 'portfolio', categoryId: 'events' })}>浏览活动视觉作品</button></>}
       </div></>}
       {panel.type === 'contact' && <><p className="dialog-intro">选择交流主题，留下一点想法。</p><div className="topic-options" role="group" aria-label="交流主题">{topics.map((item, index) => <button className="small-button" key={item} aria-pressed={topic === index} onClick={() => setTopic(index)}>{item}</button>)}</div><label className="message-label" htmlFor="contact-message">想交流的内容<span>选填</span></label><textarea id="contact-message" rows={4} value={message} onChange={(e) => setMessage(e.target.value)} placeholder="你好，我想了解……" maxLength={2000} /><div className="contact-actions"><a className="pill-button glass primary-action" href={`mailto:${EMAIL}?subject=${encodeURIComponent(topics[topic])}&body=${encodeURIComponent(message)}`}>打开邮件</a><button className="text-button" onClick={copyEmail}>{copyState}</button></div><p className="email-address">{EMAIL}</p><p className="content-note" aria-live="polite">{copyState === '复制邮箱' ? '将通过你的邮件应用继续编辑，由你确认发送。' : copyState}</p></>}
     </GlassDialog>}
