@@ -222,7 +222,7 @@ export default function Home() {
     <section className="hero page-section" id="top" aria-labelledby="hero-title">
       <div className="hero-copy">
         <div className="eyebrow hero-eyebrow"><span>UI 界面设计师</span><span className="eyebrow-divider" />UI & VISUAL DESIGN</div>
-        <h1 id="hero-title">让界面，<br />好用<span className="quiet-word">也</span>好看。</h1>
+        <h1 id="hero-title" aria-label="殷川的转正作品集">殷川<span className="quiet-word">的</span><br />转正作品集</h1>
         <p className="hero-description">专注 UI 界面与交互体验，<br />也为公司活动提供视觉设计支持。</p>
         <button className="pill-button glass primary-action" onClick={() => open({ type: 'explore' })}>探索我的作品<span className="button-caption">EXPLORE</span></button>
       </div>
