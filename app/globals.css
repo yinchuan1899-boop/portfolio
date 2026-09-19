@@ -50,8 +50,8 @@ main { position: relative; isolation: isolate; overflow: clip; }
 .hero-eyebrow { font-size: 12px; letter-spacing: .06em; color: #445261; margin-bottom: 33px; }
 .hero-eyebrow > span:first-child { color: var(--ink); font-size: 14px; letter-spacing: .08em; }
 .eyebrow-divider { width: 20px; height: 1px; background: #7f8e9c; }
-.hero h1 { font-size: clamp(48px, 5.2vw, 86px); line-height: 1.24; font-weight: 500; letter-spacing: -.055em; margin: 0 0 28px; }
-.quiet-word { color: #5d6c7b; }
+.hero h1 { font-size: clamp(92px, 11vw, 176px); line-height: 1.1; font-weight: 500; letter-spacing: -.09em; margin: 0 0 16px; }
+.hero-title-en { max-width: 32em; margin: 0 0 30px; color: #445261; font-size: 12px; font-weight: 500; line-height: 1.6; letter-spacing: .16em; }
 .hero-description { color: #465766; font-size: 16px; line-height: 1.9; margin: 0 0 36px; }
 .pill-button { display: inline-flex; justify-content: space-between; align-items: center; gap: 30px; padding: 18px 25px; min-height: 56px; border-radius: 999px; font-size: 14px; font-weight: 500; transition: transform .3s, background .3s, box-shadow .3s; }
 .pill-button:hover { transform: translateY(-3px); background: rgba(255,255,255,.8); box-shadow: 0 12px 25px rgba(49,70,96,.12), inset 0 1px 0 white; }
@@ -182,7 +182,8 @@ textarea::placeholder { color: #687d90; }
   .hero-eyebrow { gap: 10px; font-size: 10px; margin-bottom: 25px; }
   .hero-eyebrow > span:first-child { font-size: 12px; }
   .eyebrow-divider { width: 12px; }
-  .hero h1 { font-size: clamp(43px, 10.5vw, 70px); margin-bottom: 23px; line-height: 1.3; }
+  .hero h1 { font-size: clamp(92px, 20vw, 144px); margin-bottom: 14px; line-height: 1.1; }
+  .hero-title-en { max-width: 21em; margin-bottom: 24px; font-size: 10px; letter-spacing: .12em; }
   .hero-description { font-size: 14px; margin-bottom: 28px; text-shadow: 0 1px 12px #fff; }
   .hero-bottom { left: 7%; right: 7%; bottom: 38px; }
   .company-block { padding: 13px 17px; border-radius: 14px; background: rgba(246,250,253,.66); backdrop-filter: blur(20px); border: 1px solid rgba(255,255,255,.5); }

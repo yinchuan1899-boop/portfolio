@@ -202,9 +202,10 @@ export default function Home() {
 
     <section className="hero page-section" id="top" aria-labelledby="hero-title">
       <div className="hero-copy">
-        <div className="eyebrow hero-eyebrow"><span>UI 界面设计师</span><span className="eyebrow-divider" />UI & VISUAL DESIGN</div>
-        <h1 id="hero-title" aria-label="殷川的转正作品集">殷川<span className="quiet-word">的</span><br />转正作品集</h1>
-        <p className="hero-description">让内容被理解，让体验有回应。<br />专注数字展陈界面与互动体验，也探索活动视觉表达。</p>
+        <div className="eyebrow hero-eyebrow"><span>殷川 · 2026 转正作品集</span><span className="eyebrow-divider" />UI & VISUAL DESIGN</div>
+        <h1 id="hero-title">造境</h1>
+        <p className="hero-title-en">DESIGNING EXPERIENCE BEYOND THE SCREEN</p>
+        <p className="hero-description">从创意构想，到体验现场。<br />让内容被理解，让体验有回应。</p>
         <button className="pill-button glass primary-action" onClick={() => open({ type: 'portfolio' })}>探索我的作品<span className="button-caption">EXPLORE</span></button>
       </div>
       <div className="hero-bottom">

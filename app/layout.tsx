@@ -18,19 +18,19 @@ const productionHost =
 
 export const metadata: Metadata = {
   metadataBase: new URL(`https://${productionHost}`),
-  title: '殷川的转正作品集｜UI 与视觉设计',
-  description: '殷川的转正作品集：数字展陈界面、互动游戏 UI 与公司活动视觉设计。',
+  title: '造境｜殷川的转正作品集',
+  description: '从创意构想，到体验现场。殷川的数字展陈界面、互动游戏 UI 与活动视觉作品集。',
   openGraph: {
-    title: '殷川的转正作品集｜UI 与视觉设计',
-    description: '让内容被理解，让体验有回应。浏览数字展陈界面、互动游戏 UI 与活动视觉作品。',
+    title: '造境｜殷川的转正作品集',
+    description: '从创意构想，到体验现场。浏览数字展陈界面、互动游戏 UI 与活动视觉作品。',
     type: 'website',
     locale: 'zh_CN',
     images: [{ url: '/og.png', width: 1792, height: 1005, alt: '让界面，好用也好看。' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: '殷川的转正作品集｜UI 与视觉设计',
-    description: '让内容被理解，让体验有回应。浏览数字展陈界面、互动游戏 UI 与活动视觉作品。',
+    title: '造境｜殷川的转正作品集',
+    description: '从创意构想，到体验现场。浏览数字展陈界面、互动游戏 UI 与活动视觉作品。',
     images: ['/og.png'],
   },
 };
