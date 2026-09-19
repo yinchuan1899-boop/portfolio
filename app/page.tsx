@@ -5,6 +5,7 @@ import type { KeyboardEvent } from 'react';
 import { GlassDialog } from './components/glass-dialog';
 import { PortfolioBrowser } from './components/portfolio-browser';
 import { categoryImageCount, portfolio, portfolioImageCount, portfolioProjectCount } from './data/portfolio';
+import { categoryCopy } from './data/portfolio-copy';
 
 const COMPANY = '上海风语筑文化科技股份有限公司';
 const EMAIL = 'hello@lindesign.work';
@@ -12,10 +13,10 @@ const sections = [{ id: 'top', label: '首页' }, { id: 'work', label: '作品' 
 const categories = ['全部作品', '界面', '游戏UI', '公司活动'] as const;
 type Category = typeof categories[number];
 const abilities = [
-  { label: 'UI 界面', title: '让复杂的信息，变得清晰。', text: '围绕用户需求与业务目标，梳理信息层级和页面关系，通过视觉秩序帮助用户理解内容、完成操作。', tags: ['信息层级', '界面布局', '视觉语言'] },
-  { label: '交互体验', title: '让每一次操作，都有自然的回应。', text: '关注操作路径、状态变化和反馈，让页面之间的衔接清晰，让界面细节服务于完整的使用体验。', tags: ['操作路径', '状态反馈', '体验连贯性'] },
-  { label: '组件规范', title: '将细节沉淀为一致的设计语言。', text: '从字体、色彩和间距到基础组件，关注设计规则在不同页面中的一致应用，也为后续协作保留清晰依据。', tags: ['组件复用', '视觉一致性', '设计交付'] },
-  { label: '活动视觉', title: '将界面之外的想法，也表达出来。', text: '在 UI 设计工作之外，为公司活动制作海报，关注主题、文字与图形的组织，让传播信息明确而有辨识度。', tags: ['活动海报', '信息编排', '视觉延展'] },
+  { label: '信息组织', title: '让专业内容，更容易被理解。', text: '面对企业、产业与文化主题，我先梳理内容关系，再通过层级、布局与导航线索建立清楚的阅读路径。', tags: ['内容梳理', '信息层级', '阅读路径'] },
+  { label: '主题表达', title: '让视觉气质，回应内容本身。', text: '从科技场景到传统文化，依据项目主题选择图像、色彩与文字节奏，让界面既有辨识度，也能承载内容。', tags: ['主题视觉', '色彩语言', '文字编排'] },
+  { label: '交互状态', title: '让参与有引导，让操作有反馈。', text: '在互动游戏与展项界面中，关注待机、教学、操作和结果等不同状态，让提示与反馈融入整体体验。', tags: ['操作引导', '状态反馈', '体验连贯性'] },
+  { label: '活动视觉', title: '让主题在不同画幅里保持连贯。', text: '在 UI 设计之外，也为公司活动制作海报与邀请函；根据横竖版和不同载体重新组织信息，延续统一的主题表达。', tags: ['活动海报', '邀请函', '视觉延展'] },
 ];
 type Panel = { type: 'portfolio'; categoryId?: string } | { type: 'about' } | { type: 'contact' } | null;
 
@@ -203,40 +204,40 @@ export default function Home() {
       <div className="hero-copy">
         <div className="eyebrow hero-eyebrow"><span>UI 界面设计师</span><span className="eyebrow-divider" />UI & VISUAL DESIGN</div>
         <h1 id="hero-title" aria-label="殷川的转正作品集">殷川<span className="quiet-word">的</span><br />转正作品集</h1>
-        <p className="hero-description">专注 UI 界面与交互体验，<br />也为公司活动提供视觉设计支持。</p>
+        <p className="hero-description">让内容被理解，让体验有回应。<br />专注数字展陈界面与互动体验，也探索活动视觉表达。</p>
         <button className="pill-button glass primary-action" onClick={() => open({ type: 'portfolio' })}>探索我的作品<span className="button-caption">EXPLORE</span></button>
       </div>
       <div className="hero-bottom">
         <div className="company-block"><span className="location">中国·上海</span><p>{COMPANY}</p></div>
-        <div className="hero-note"><span>清晰的逻辑，自由的表达。</span><small>THOUGHTFUL BY DESIGN.</small></div>
+        <div className="hero-note"><span>以清晰组织信息，以视觉传递感受。</span><small>THOUGHTFUL BY DESIGN.</small></div>
       </div>
       <div className="hero-index" aria-hidden="true">01<span>/ 04</span></div>
     </section>
 
     <section className="work-section page-section" id="work" aria-labelledby="work-title">
       <div className="section-heading"><span className="eyebrow">01 / SELECTED WORK</span><span className="eyebrow">{portfolioProjectCount} 个项目 · {portfolioImageCount} 张效果图</span></div>
-      <div className="section-intro"><h2 id="work-title">设计，有迹可循。</h2><p>从界面到视觉，<br />让每一种表达，都回应真实需求。</p></div>
+      <div className="section-intro"><h2 id="work-title">在不同场景里，<br />回应具体问题。</h2><p>从企业与产业展示，到文化互动与活动视觉，<br />围绕内容、场景和操作需求寻找合适的表达。</p></div>
       <Tabs labels={categories} selected={categories.indexOf(category)} onChange={(index) => setCategory(categories[index])} id="work" />
       <div className="project-grid" role="tabpanel" id="work-panel" aria-labelledby={`work-tab-${categories.indexOf(category)}`}>
         {portfolio.map((item, index) => category === '全部作品' || item.name === category ? <button className={`project-card glass project-${index}`} key={item.id} onClick={() => open({ type: 'portfolio', categoryId: item.id })} aria-label={`浏览${item.name}，${item.projects.length}个项目`}>
           <div className="project-topline"><span>{item.english}</span><span>{item.projects.length} 个项目</span></div>
-          <div className="project-type"><span>0{index + 1}</span><h3>{item.name}</h3><p>{item.description}</p></div>
+          <div className="project-type"><span>0{index + 1}</span><h3>{item.name}</h3><p>{categoryCopy[item.id]?.headline ?? item.description}</p></div>
           <div className="project-bottom"><span>{categoryImageCount(item)} 张效果图</span><span>选择项目 ↗</span></div>
         </button> : null)}
       </div>
-      <div className="section-bottom"><p>UI 设计为主线，活动视觉为延展。</p><button className="text-button" onClick={() => open({ type: 'portfolio' })}>按设计方向浏览</button></div>
+      <div className="section-bottom"><p>从设计方向进入项目，再细看每一张效果图。</p><button className="text-button" onClick={() => open({ type: 'portfolio' })}>按设计方向浏览</button></div>
     </section>
 
     <section className="about-section page-section" id="about" aria-labelledby="about-title">
       <div className="section-heading"><span className="eyebrow">02 / ABOUT & APPROACH</span><span className="eyebrow">设计方法与态度</span></div>
-      <div className="about-grid"><div className="about-intro"><h2 id="about-title">以清晰，<br />承载想象。</h2><p>我相信好的 UI，应该让体验清晰自然。<br />在逻辑与感受之间，寻找恰好的平衡。</p><div className="about-company"><span>UI 界面设计师 · 中国·上海</span><p>{COMPANY}</p></div><button className="pill-button glass" onClick={() => open({ type: 'about' })}>进一步了解我<span className="button-caption">ABOUT ME</span></button></div>
+      <div className="about-grid"><div className="about-intro"><h2 id="about-title">以清晰，<br />承载想象。</h2><p>我是殷川，一名关注数字展陈与互动体验的 UI / 视觉设计师。<br />我关注内容如何被理解、操作如何被识别，以及不同页面如何形成一致的体验。</p><div className="about-company"><span>UI / 视觉设计师 · 中国·上海</span><p>{COMPANY}</p></div><button className="pill-button glass" onClick={() => open({ type: 'about' })}>进一步了解我<span className="button-caption">ABOUT ME</span></button></div>
         <div className="ability-card glass"><Tabs id="ability" labels={abilities.map((item) => item.label)} selected={ability} onChange={setAbility} /><div id="ability-panel" role="tabpanel" aria-labelledby={`ability-tab-${ability}`} className="ability-content" key={ability}><span className="large-index">0{ability + 1}</span><h3>{abilities[ability].title}</h3><p>{abilities[ability].text}</p><div className="tags">{abilities[ability].tags.map((tag) => <span key={tag}>{tag}</span>)}</div></div></div>
       </div>
     </section>
 
     <section className="contact-section page-section" id="contact" aria-labelledby="contact-title">
       <div className="section-heading"><span className="eyebrow">03 / LET’S CONNECT</span><span className="eyebrow">保持交流</span></div>
-      <div className="contact-content"><span className="eyebrow">从一个想法开始</span><h2 id="contact-title">好的设计，<br />始于一次交流。</h2><button className="pill-button glass primary-action" onClick={() => open({ type: 'contact' })}>一起聊聊<span className="button-caption">LET’S TALK</span></button><p>界面设计、活动视觉，或关于作品的想法。</p></div>
+      <div className="contact-content"><span className="eyebrow">从一个具体问题开始</span><h2 id="contact-title">让我们，<br />继续交流。</h2><button className="pill-button glass primary-action" onClick={() => open({ type: 'contact' })}>一起聊聊<span className="button-caption">LET’S TALK</span></button><p>想了解某个项目，或交流界面与视觉设计？欢迎联系我。</p></div>
       <footer className="footer-bottom"><span>© 2026 LIN DESIGN</span><span>中国·上海</span><a href="#top">回到首页</a></footer>
     </section>
 
@@ -245,9 +246,9 @@ export default function Home() {
     {panel?.type === 'portfolio' && <PortfolioBrowser initialCategoryId={panel.categoryId} close={() => setPanel(null)} />}
     {panel && panel.type !== 'portfolio' && <GlassDialog close={() => setPanel(null)} breadcrumb={`首页 / ${panel.type === 'about' ? '关于我' : '联系交流'}`} title={panel.type === 'about' ? '设计背后的思考。' : '想聊些什么？'}>
       {panel.type === 'about' && <><Tabs id="about-detail" labels={['工作定位', '设计方法', '视觉延展']} selected={aboutTab} onChange={setAboutTab} /><div id="about-detail-panel" role="tabpanel" aria-labelledby={`about-detail-tab-${aboutTab}`} className="project-detail-content" key={aboutTab}>
-        {aboutTab === 0 ? <><span className="eyebrow">UI DESIGNER / SHANGHAI</span><h3>UI 界面设计师</h3><p>{COMPANY}</p><p>专注 UI 界面与交互体验，同时参与公司活动海报设计，将清晰的信息组织与视觉表达带入不同的设计场景。</p></> : aboutTab === 1 ? <><h3>从问题出发，让设计有依据。</h3><ol className="detail-list"><li>理解需求：明确用户任务与业务目标。</li><li>梳理结构：组织信息，理顺操作路径。</li><li>形成表达：统一视觉语言与组件状态。</li><li>关注细节：检查可用性与界面一致性。</li></ol></> : <><h3>界面之外，延续视觉思考。</h3><p>{abilities[3].text}</p><button className="pill-button glass" onClick={() => open({ type: 'portfolio', categoryId: 'events' })}>浏览活动视觉作品</button></>}
+        {aboutTab === 0 ? <><span className="eyebrow">UI & VISUAL DESIGNER / SHANGHAI</span><h3>从内容出发，设计可感知的体验。</h3><p>{COMPANY}</p><p>我的设计实践覆盖企业与产业展示、文化主题界面、互动游戏 UI 和活动视觉。我希望让信息更容易被理解，让操作更容易被识别。</p></> : aboutTab === 1 ? <><h3>从问题出发，让设计有依据。</h3><ol className="detail-list"><li>理解内容：明确主题、信息与使用场景。</li><li>梳理结构：组织阅读顺序和操作路径。</li><li>形成表达：选择符合主题的视觉语言。</li><li>完善状态：让引导、操作与反馈连贯。</li><li>检查延展：让不同页面与画幅保持一致。</li></ol></> : <><h3>让主题在不同载体上保持连贯。</h3><p>{abilities[3].text}</p><button className="pill-button glass" onClick={() => open({ type: 'portfolio', categoryId: 'events' })}>浏览活动视觉作品</button></>}
       </div></>}
-      {panel.type === 'contact' && <><p className="dialog-intro">选择交流主题，留下一点想法。</p><div className="topic-options" role="group" aria-label="交流主题">{topics.map((item, index) => <button className="small-button" key={item} aria-pressed={topic === index} onClick={() => setTopic(index)}>{item}</button>)}</div><label className="message-label" htmlFor="contact-message">想交流的内容<span>选填</span></label><textarea id="contact-message" rows={4} value={message} onChange={(e) => setMessage(e.target.value)} placeholder="你好，我想了解……" maxLength={2000} /><div className="contact-actions"><a className="pill-button glass primary-action" href={`mailto:${EMAIL}?subject=${encodeURIComponent(topics[topic])}&body=${encodeURIComponent(message)}`}>打开邮件</a><button className="text-button" onClick={copyEmail}>{copyState}</button></div><p className="email-address">{EMAIL}</p><p className="content-note" aria-live="polite">{copyState === '复制邮箱' ? '将通过你的邮件应用继续编辑，由你确认发送。' : copyState}</p></>}
+      {panel.type === 'contact' && <><p className="dialog-intro">选择交流主题，也可以说说你对某个项目的想法。</p><div className="topic-options" role="group" aria-label="交流主题">{topics.map((item, index) => <button className="small-button" key={item} aria-pressed={topic === index} onClick={() => setTopic(index)}>{item}</button>)}</div><label className="message-label" htmlFor="contact-message">想交流的内容<span>选填</span></label><textarea id="contact-message" rows={4} value={message} onChange={(e) => setMessage(e.target.value)} placeholder="你希望了解哪个项目，或讨论什么设计问题？" maxLength={2000} /><div className="contact-actions"><a className="pill-button glass primary-action" href={`mailto:${EMAIL}?subject=${encodeURIComponent(topics[topic])}&body=${encodeURIComponent(message)}`}>打开邮件</a><button className="text-button" onClick={copyEmail}>{copyState}</button></div><p className="email-address">{EMAIL}</p><p className="content-note" aria-live="polite">{copyState === '复制邮箱' ? '将通过你的邮件应用继续编辑，由你确认发送。' : copyState}</p></>}
     </GlassDialog>}
   </main>;
 }

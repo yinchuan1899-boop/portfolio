@@ -5,6 +5,7 @@ import { useRef, useState } from 'react';
 import { GlassDialog } from './glass-dialog';
 import { categoryImageCount, portfolio, portfolioImageCount, portfolioProjectCount, projectCover, projectImages } from '../data/portfolio';
 import type { PortfolioImage } from '../data/portfolio';
+import { categoryCopy, projectCopy } from '../data/portfolio-copy';
 
 function Artwork({ image, alt, detail = false }: { image: PortfolioImage; alt: string; detail?: boolean }) {
   const [failed, setFailed] = useState(false);
@@ -50,18 +51,19 @@ export function PortfolioBrowser({ initialCategoryId, close }: { initialCategory
     {!category && <>
       <p className="dialog-intro">三个设计方向，{portfolioProjectCount} 个项目，{portfolioImageCount} 张效果图。选择一个方向，继续探索。</p>
       <div className="choice-list">{portfolio.map((item, index) => <button type="button" key={item.id} onClick={() => chooseCategory(item.id)}>
-        <span className="choice-number">0{index + 1}</span><span><strong>{item.name}</strong><small>{item.description}</small></span><span className="choice-count">{item.projects.length} 个项目</span>
+        <span className="choice-number">0{index + 1}</span><span><strong>{item.name}</strong><small>{categoryCopy[item.id]?.headline ?? item.description}</small></span><span className="choice-count">{item.projects.length} 个项目</span>
       </button>)}</div>
     </>}
     {category && !project && <>
-      <div className="collection-intro"><p>{category.description}</p><span>{category.projects.length} 个项目 <i>/</i> {categoryImageCount(category)} 张效果图</span></div>
+      <div className="collection-intro"><p>{categoryCopy[category.id]?.description ?? category.description}</p><span>{category.projects.length} 个项目 <i>/</i> {categoryImageCount(category)} 张效果图</span></div>
       <div className="collection-grid">{category.projects.map((item, index) => <button type="button" className="collection-card" key={item.id} onClick={() => chooseProject(item.id)} aria-label={`查看 ${item.name}，${projectImages(item).length} 张效果图`}>
         <span className="collection-cover"><Artwork image={projectCover(item)} alt={`${item.name} · ${projectCover(item).name}`} /><span className="collection-number">{String(index + 1).padStart(2, '0')}</span></span>
-        <span className="collection-card-info"><strong>{item.name}</strong><span>{projectImages(item).length} 张效果图{item.groups.length > 1 ? ` · ${item.groups.length} 个分组` : ''}</span><span className="collection-enter">查看项目 <span aria-hidden="true">↗</span></span></span>
+        <span className="collection-card-info"><strong>{item.name}</strong>{projectCopy[item.name] && <span className="project-card-headline">{projectCopy[item.name].headline}</span>}<span>{projectImages(item).length} 张效果图{item.groups.length > 1 ? ` · ${item.groups.length} 个分组` : ''}</span><span className="collection-enter">查看项目 <span aria-hidden="true">↗</span></span></span>
       </button>)}</div>
     </>}
     {category && project && !image && <>
       <div className="collection-intro"><p>{category.english}</p><span>{projectImages(project).length} 张效果图 <i>/</i> 点击图片放大</span></div>
+      {projectCopy[project.name] && <div className="project-editorial"><h3>{projectCopy[project.name].headline}</h3><p>{projectCopy[project.name].description}</p></div>}
       {project.groups.length > 1 && <div className="gallery-filters" role="group" aria-label="效果图分组">{[{ id: 'all', name: '全部效果图', images: projectImages(project) }, ...project.groups].map((group) => <button type="button" key={group.id} className="small-button" aria-pressed={groupId === group.id} onClick={() => setGroups((current) => ({ ...current, [project.id]: group.id }))}>{group.name}<span>{group.images.length}</span></button>)}</div>}
       <div className="artwork-grid" aria-label={`${project.name}效果图`}>{images.map((item, index) => <button type="button" className={`artwork-card${item.height > item.width ? ' artwork-portrait' : ''}`} key={item.id} onClick={() => showImage(item.id)} aria-label={`放大 ${item.filename}`}>
         <span className="artwork-preview"><Artwork image={item} alt={`${project.name} · ${item.filename}`} /></span>
